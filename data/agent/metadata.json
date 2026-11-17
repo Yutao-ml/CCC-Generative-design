@@ -1,0 +1,46 @@
+{
+  "feature_schema": "soft21-grid100-v1",
+  "records": 300,
+  "sections_per_record": 4,
+  "section_shape": [
+    100,
+    100
+  ],
+  "npz_dtype": "float64",
+  "normalized_intensity_range": [
+    0,
+    1
+  ],
+  "encoding_dtype": "float32",
+  "grid_resampling": "Area resampling to 100 by 100 for all feedback inputs",
+  "feature_order": [
+    "mean_gray_0_1_mean",
+    "mean_gray_0_1_section_sd",
+    "mean_gray_0_1_section_range",
+    "std_gray_0_1_mean",
+    "std_gray_0_1_section_sd",
+    "std_gray_0_1_section_range",
+    "rho_carbon_fraction_mean",
+    "rho_carbon_fraction_section_sd",
+    "rho_carbon_fraction_section_range",
+    "U_uniformity_mean",
+    "U_uniformity_section_sd",
+    "U_uniformity_section_range",
+    "A_agglomeration_mean",
+    "A_agglomeration_section_sd",
+    "A_agglomeration_section_range",
+    "I_interface_density_mean",
+    "I_interface_density_section_sd",
+    "I_interface_density_section_range",
+    "R_autocorrelation_length_mean",
+    "R_autocorrelation_length_section_sd",
+    "R_autocorrelation_length_section_range"
+  ],
+  "target_units": {
+    "Jmax_20ms_A_cm2": "A/cm^2",
+    "cum_deltaT_Ks": "K*s"
+  },
+  "origin": "Retained interpolation fields paired to the existing physical-response records",
+  "statistics": "Means, population standard deviations and ranges across the four representative sections",
+  "use": "Response-model inputs for new agent-assisted runs; retained screening features remain unchanged"
+}
