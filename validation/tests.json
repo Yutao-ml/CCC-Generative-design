@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tests": 6,
+  "failures": 0,
+  "errors": 0,
+  "checks": [
+    "Finite descriptors for empty fields",
+    "Four-neighbour connected components",
+    "Millisecond-to-second integration",
+    "Benchmark normalization and example counts",
+    "Saved-image source hashes and collection sizes",
+    "Structure-response target consistency"
+  ]
+}
