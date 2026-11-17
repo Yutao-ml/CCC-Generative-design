@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "selected_epoch": 270,
+  "format": "byte-split-v1",
+  "parts": 3,
+  "part_bytes": [
+    20000000,
+    20000000,
+    8204771
+  ],
+  "original_bytes": 48204771,
+  "original_sha256": "1c7e79ffbb3773c35123d731684cfdcfa5539892ed177d75ad30e2d99ff99172",
+  "byte_exact_reassembly": true,
+  "generator_state_entries": 64,
+  "generator_parameters": 11881726,
+  "all_state_entries_equal_to_source": true,
+  "strict_load": true,
+  "source_architecture_forward_max_abs_difference": 0.0,
+  "output_shape": [
+    1,
+    1,
+    512,
+    512
+  ],
+  "finite_output": true
+}

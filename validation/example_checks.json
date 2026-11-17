@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "selected_epoch": 270,
+  "indexed_images": 612,
+  "saved_image_groups": {
+    "characterization": 32,
+    "ar": 20,
+    "vae": 20,
+    "diffusion": 20,
+    "gan": 20,
+    "dmegan": 500
+  },
+  "existing_public_image_data_unchanged": true,
+  "image_index_unchanged": true,
+  "derived_image_tables_unchanged": true,
+  "preview_unchanged": true,
+  "response_data_unchanged": true,
+  "checkpoint_scope": "Epoch-270 inference model; retained image source labels preserved",
+  "generator_checkpoint_verified": true
+}
