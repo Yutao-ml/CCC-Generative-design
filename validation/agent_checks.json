@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "paired_records": 300,
+  "features": 21,
+  "ensemble_members": 12,
+  "random_features": 96,
+  "encoding_max_abs_difference": 0.0,
+  "frozen_surrogate_parameters": true,
+  "input_gradient_finite": true,
+  "input_gradient_abs_sum": 2.641256332397461,
+  "current_density_unit": "A/cm^2",
+  "thermal_integral_unit": "K*s",
+  "scope": "Encoding consistency and feedback software check on retained paired inputs",
+  "generator_gradient_check": {
+    "status": "PASS",
+    "selected_inference_epoch": 270,
+    "feedback_gradient_reaches_generator": true,
+    "finite_generator_gradients": true,
+    "gradient_tensor_count": 61,
+    "scope": "Backward-pass check; published weights unchanged"
+  },
+  "training_smoke": {
+    "status": "PASS",
+    "epochs": 2,
+    "capacity": "Reduced quick configuration",
+    "external_solves": 0
+  },
+  "controller_replay": {
+    "records": 2,
+    "mismatch_epochs": [],
+    "status": "PASS",
+    "scope": "Policy replay from supplied state observations; no finite-element solves"
+  },
+  "response_targets_unchanged": true
+}

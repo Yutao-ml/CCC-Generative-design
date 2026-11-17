@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "software_tests": 20,
+  "public_payload_language": "English",
+  "existing_payloads_preserved": 631,
+  "checkpoint_epoch": 270,
+  "retained_dmegan_images": 500,
+  "smooth_response_pairs": 300,
+  "schema": "soft21-grid100-v1",
+  "no_historical_result_relabeling": true,
+  "new_training_outputs_separate": true,
+  "public_file_size_limit_bytes": 25000000,
+  "doi_placeholder_removed": true
+}
