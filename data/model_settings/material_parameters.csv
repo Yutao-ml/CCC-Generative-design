@@ -1,0 +1,8 @@
+Quantity,Unit,Ceramic,Carbon,Low-signal limit
+"Density, ρ",kg m−3,2800,2250,1.2
+"Specific heat, cp",J kg−1 K−1,950,707.7,1004
+"Thermal conductivity, k",W m−1 K−1,3.5,24,0.026
+"Young’s modulus, E",GPa,150,4.8,0.001
+"Thermal expansion coefficient, α",10−6 K−1,5.0,2.5,0
+"Poisson ratio, ν",1,0.20,0.25,0
+"Relative permittivity, εr",1,6.5,1,1

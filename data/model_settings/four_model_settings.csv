@@ -1,0 +1,12 @@
+Parameter,AR,VAE,Diffusion,GAN
+Training epochs,150,250,300,215
+Batch size,2,4,2,8
+Initial learning rate,2 × 10−4,2 × 10−4,2 × 10−4,2.5 × 10−4 (G); 5 × 10−5 (D)
+Weight decay,1 × 10−4,1 × 10−4,1 × 10−4,0
+Architecture width,64 channels; 10 masked layers; kernel 5,Base width 32,"Base width 48; multipliers 1, 2, 4, 4",Base width 32
+Latent or time representation,Conditional pixel regression,Latent dimension 64,Time embedding 192,Latent dimension 128
+Dropout,0.05,—,0.1,—
+Model-specific regularization,Foreground weight 2,Foreground weight 2; KL coefficient 0 → 0.15; 100-epoch annealing,300 noise levels; β: 10−4 → 0.02; EMA decay 0.995,"AdamW coefficients (0.5, 0.999); initial instance noise 0.08"
+Checkpoint criterion,Minimum training objective,Minimum training objective,Minimum training objective; EMA weights,Composite structural/distributional criterion
+Generation settings,Conditional noise SD 0.035,Latent sampling,DDPM; 300 reverse steps,Latent truncation 1.0; quantile-matching blend 0.9
+Evaluated images,100,500,100,500
