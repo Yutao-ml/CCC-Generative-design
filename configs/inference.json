@@ -1,0 +1,14 @@
+{
+  "generator": {
+    "latent_dim": 128,
+    "base_channels": 40,
+    "image_size": 512,
+    "feature_dropout": 0.02,
+    "skeleton_memory_slots": 32,
+    "skeleton_memory_temperature": 0.24,
+    "skeleton_memory_scale_init": 0.28
+  },
+  "reference_resolution": 64,
+  "latent_scale": 1.0,
+  "selected_epoch": 180
+}

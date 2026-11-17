@@ -1,0 +1,103 @@
+{
+  "source": "Manuscript-v2 Methods 5.5 and Table 3; retained native model and solver-export records",
+  "domain_um": [
+    60,
+    60,
+    20
+  ],
+  "section_positions_um": [
+    0,
+    6.666666666666667,
+    13.333333333333334,
+    20
+  ],
+  "initial_temperature_K": 293.15,
+  "pulse": {
+    "form": "j0*(exp(-a*t)-exp(-b*t))",
+    "time_unit": "s",
+    "j0_A_cm2": 10,
+    "a_s_inverse": 20,
+    "b_s_inverse": 100,
+    "peak_time_s": 0.020117973905426252,
+    "peak_A_cm2": 5.349922439811376
+  },
+  "heat_transfer_W_m2_K": {
+    "lateral": 300,
+    "electrodes": 3000
+  },
+  "time_interval_s": [
+    0,
+    0.05
+  ],
+  "solver": {
+    "time_method": "adaptive BDF",
+    "relative_tolerance": 0.01,
+    "potential_solver": "direct sparse",
+    "native_version": "6.3.0.290"
+  },
+  "fine_mesh": {
+    "elements": [
+      40,
+      40,
+      8
+    ],
+    "output_interval_s": 0.0005
+  },
+  "screening_mesh": {
+    "elements": [
+      12,
+      12,
+      3
+    ],
+    "output_interval_s": 0.01
+  },
+  "compression": {
+    "pressure_Pa": 1000000.0,
+    "loading_length_m": 6e-05
+  },
+  "material_inputs_SI": {
+    "density_kg_m3": [
+      2800,
+      2250,
+      1.2
+    ],
+    "specific_heat_J_kg_K": [
+      950,
+      707.7,
+      1004
+    ],
+    "thermal_conductivity_W_m_K": [
+      3.5,
+      24,
+      0.026
+    ],
+    "Young_modulus_Pa": [
+      150000000000.0,
+      4800000000.0,
+      1000000.0
+    ],
+    "thermal_expansion_K_inverse": [
+      5e-06,
+      2.5e-06,
+      0
+    ],
+    "Poisson_ratio": [
+      0.2,
+      0.25,
+      0
+    ],
+    "relative_permittivity": [
+      6.5,
+      1,
+      1
+    ]
+  },
+  "material_order": [
+    "ceramic",
+    "carbon",
+    "low_signal_limit"
+  ],
+  "electrical_contact_factor": 0.0062,
+  "thermal_conductivity_correction": 0.12,
+  "scope": "Equivalent constitutive mapping applied consistently; output interval is not a fixed integration step; two mesh levels do not establish convergence"
+}

@@ -15,8 +15,7 @@ This repository provides inference with a selected dual-scale morphology-envelop
 
 The image subsets use the first saved entries in numeric order. Their original identifiers and SHA-256 hashes are in `data/image_index.csv`. The three 100-entry response cohorts may overlap. The saved examples are not used to re-estimate the article's population-level improvements.
 
-<img width="1080" height="1260" alt="preview" src="https://github.com/user-attachments/assets/a149a88c-7f5f-478e-800e-af8da4faa011" />
-
+![Saved field examples](docs/preview.png)
 
 ## Run the examples
 
@@ -63,7 +62,7 @@ The inference loader uses the matching epoch-180 architecture and initializes it
 
 Four-model images are saved examples; this release does not implement inference or retraining for those four models. Image statistics describe the included sets. Response screening uses retained numerical outputs, converts milliseconds to seconds for temperature integration, and evaluates the stated electrothermal and modulus benchmarks. The 21-feature table is supplied for inspection and is distinct from the 14 per-image evaluation descriptors.
 
-Full training and finite-element re-solving are outside this example release. Installation and running this repository do not reproduce every result in the article.
+Full training, checkpoint selection, surrogate-feedback optimization and finite-element re-solving are outside this example release. Installation and running this repository do not reproduce every result in the article.
 
 ## Licence and citation
 
