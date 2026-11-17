@@ -1,0 +1,1543 @@
+{
+  "title": "Example images and retained response data for carbon-ceramic DME-GAN analysis",
+  "version": "1.1.0",
+  "language": "en",
+  "license": "CC-BY-4.0",
+  "contents": {
+    "characterization_images": 32,
+    "generated_images": {
+      "ar": 20,
+      "vae": 20,
+      "diffusion": 20,
+      "gan": 20,
+      "dmegan": 500
+    },
+    "response_records": 302,
+    "candidate_records": 300,
+    "reference_records": 2,
+    "structure_response_records": 300,
+    "structural_features": 21
+  },
+  "selection": "The first 20 numerically ordered saved evaluation fields are included for each comparison model. The first 500 saved fields from the selected epoch-180 screening library are included for DME-GAN. All 302 retained response records are included.",
+  "response_processing": "Only response columns consumed by the examples are exported from the retained solver tables; numerical values are preserved. The 300-row descriptor-response table is supplied with its original numeric values.",
+  "checkpoint": {
+    "selected_epoch": 180,
+    "generator_tensor_entries": 67,
+    "tensor_values_unchanged": true,
+    "source_checkpoint_sha256": "95d9573c4301e3815877943222f8efec6c76beba95fae156d7244073a88cc42c",
+    "sha256": "7bcd59a672d93c32e21f65be6c0ab010e560c660e6230a28ff941158f87e62f5"
+  },
+  "response_sources": [
+    {
+      "record_id": "ET_selected",
+      "electrothermal_source_sha256": "165723c09b76d27975931d3e82d6c26c412fafcd8f1978725bc1d36cf6ae2635",
+      "mechanical_source_sha256": "3758b44a84f07b09ae53ea5dc2fca98b760459488a45c44f226913aac00b8f87"
+    },
+    {
+      "record_id": "CM_selected",
+      "electrothermal_source_sha256": "1f9c7a37c36968814b8f167a42534e087f0025ef5482a9c094d71dc14644625b",
+      "mechanical_source_sha256": "72e942b79a4dd08ea232049d468a357522b393de77f293ac9bc182c47efefb74"
+    },
+    {
+      "record_id": "SRS_001",
+      "electrothermal_source_sha256": "6b6c066f7cb6571fab972b8b5055387ddbdeae883f53b7ca3b528f05c988512a",
+      "mechanical_source_sha256": "75ef22336b76f31fab6b96d6cf5b3509d36b95f3bdebab552b050c0664766349"
+    },
+    {
+      "record_id": "SRS_002",
+      "electrothermal_source_sha256": "a6b104bd3523a6b13c5cc19cdc4566eaf42a4eb0eebb56e660aae0cd91de3c0c",
+      "mechanical_source_sha256": "d14621316ab2ad8f38fafeafdb4067bcff9c780e2971a0efb62fb3ee5640d7ed"
+    },
+    {
+      "record_id": "SRS_003",
+      "electrothermal_source_sha256": "da44f3c243eaadce31d7e302de4e06b9cc1d12eb4e70667ef18c016fcf7dd626",
+      "mechanical_source_sha256": "1926b0390b7887d7b1747afc4de0c415bf50e20f8df3261d5de20c0adb4b5a66"
+    },
+    {
+      "record_id": "SRS_004",
+      "electrothermal_source_sha256": "4ef33ace0e7d31e78dc22d29eee27c41da00bb90099241db16b63ef904e334e8",
+      "mechanical_source_sha256": "0ab6ddafff111ed7f7a6a2460e777b1cdd6a48038f4fa40794132f1617ecec9e"
+    },
+    {
+      "record_id": "SRS_005",
+      "electrothermal_source_sha256": "39e5f3ecb429166eb5a4dee52948a8c4da9c5372c0f4f10ce9f9b7ad34faea28",
+      "mechanical_source_sha256": "e56cd23726d07ceb0dca28da3426ef27cc6bcccf93368c37b3ce8dd4fc293cd6"
+    },
+    {
+      "record_id": "SRS_006",
+      "electrothermal_source_sha256": "2cfb8e01e3a430a3427cbdd30d01bd73324997fca30d3f3ccc4e707d73508f79",
+      "mechanical_source_sha256": "338721b89c0bac159165bcd14cc25abb87a0b9a8728880289b75c1d8c4d14e16"
+    },
+    {
+      "record_id": "SRS_007",
+      "electrothermal_source_sha256": "a8f133abbbd31f633e2c85ac6253f0297459924908482255012c83dc90eec9f3",
+      "mechanical_source_sha256": "dafd3e7ded8737ea956e26e3c1b58276b854a081fc5d1ecfa5a6a31a4719a28f"
+    },
+    {
+      "record_id": "SRS_008",
+      "electrothermal_source_sha256": "e70504280f0b46247c16c55173a304a695c1549b16fd183ee0fd5292a958f570",
+      "mechanical_source_sha256": "84ef5396f8992ff00371ad266e35b69d41a6f42b994b9f56b13e8c4550dafdc9"
+    },
+    {
+      "record_id": "SRS_009",
+      "electrothermal_source_sha256": "92a072365b3696b556e9073fe30f7b986ae366d15d1968dfc6c2155fa0350ba8",
+      "mechanical_source_sha256": "be34a7fd4d93cc0d2d4080600a4c0aa33d6361514c67240531597f1a64541095"
+    },
+    {
+      "record_id": "SRS_010",
+      "electrothermal_source_sha256": "cde1294b43b95a6c88a5adf4ce0c73fc590a58770054b0a9e7e4b2cb50686842",
+      "mechanical_source_sha256": "0023c37d964813dbb3c6ae01f1144ff17dd5ccb80ece1a00435deccc3ede151e"
+    },
+    {
+      "record_id": "SRS_011",
+      "electrothermal_source_sha256": "82a6ba1dc58278f9e7595dadc48e753214ba530b23ba076b327141e26ee79ac5",
+      "mechanical_source_sha256": "3d6baa33a03a2f6a1706ca2404d4b008d494324766ad0885a6588db9ba6896d2"
+    },
+    {
+      "record_id": "SRS_012",
+      "electrothermal_source_sha256": "09bd2998f887cb8bd6037e7d33b7f24f051db32dfc45836c878b8066bd55f11c",
+      "mechanical_source_sha256": "2f51f4bb5520392cc1177da592921e62aed5facf8f8e8ad9387def1583582dd0"
+    },
+    {
+      "record_id": "SRS_013",
+      "electrothermal_source_sha256": "ea003ea5a88f28b14578bdf0da2760cf585cd46ce3b5318d39e264429362f113",
+      "mechanical_source_sha256": "06a7b64b20df287f50c6ee36f518c4038f489f48aa675305a254a30f57c1184e"
+    },
+    {
+      "record_id": "SRS_014",
+      "electrothermal_source_sha256": "ea5883009c1969d25fca488f6f2d9e22a564a5d6d56ddb499b5dafba04ff17bf",
+      "mechanical_source_sha256": "8ebb812776ffd5b03138a4081593c48854310a62f37780fee4f557781fed1358"
+    },
+    {
+      "record_id": "SRS_015",
+      "electrothermal_source_sha256": "b493066e4cfef3a9c73f87ac3218d36aa8cc5d6b870a4c93dff7508bb1abe97b",
+      "mechanical_source_sha256": "7b53494cf02994357a52a6703e58e6d7af9bde27352896f0ea0e0b8e868482ff"
+    },
+    {
+      "record_id": "SRS_016",
+      "electrothermal_source_sha256": "05edcab17fbda553d11510091e05a64af46186ed7424556f0101e8e6cb24bbff",
+      "mechanical_source_sha256": "878ad47769545334d0e9556b0ae625f33d7f94204615f19160c8249954ba9091"
+    },
+    {
+      "record_id": "SRS_017",
+      "electrothermal_source_sha256": "306f9e99770326e83df50ea60a3e6fc89baf44d24fd63a09e139732dfa9121e9",
+      "mechanical_source_sha256": "9422396f5388be04ac7eeb334c4075f9eb175e76596f73523f7870c41290a846"
+    },
+    {
+      "record_id": "SRS_018",
+      "electrothermal_source_sha256": "3877432fc04729244695884a83b91a2dd08f51e94807359608a0cf14ae7a8e25",
+      "mechanical_source_sha256": "4dabd323f382690742f01ec4f7a6b9a31f1a7ab6e83fec555634f12ddb2f72d7"
+    },
+    {
+      "record_id": "SRS_019",
+      "electrothermal_source_sha256": "46b47a2eeb1fb984233d142967ac0e404aa92161eeb6f2c671e29402e03274f9",
+      "mechanical_source_sha256": "44a8bfca5f867ea9d2036f7753f8ec6c14fba648b643ec27f34e05ae0c9366e6"
+    },
+    {
+      "record_id": "SRS_020",
+      "electrothermal_source_sha256": "205ace94492c143efed97fe79db678877fd96658c8eadb5903eb85dcc2466393",
+      "mechanical_source_sha256": "6b54ddf677c6f418fb6dd1cefa06fa9cdbfa625629a5c3eb5bddbcae3b68e0b8"
+    },
+    {
+      "record_id": "SRS_021",
+      "electrothermal_source_sha256": "dfebe447102f901eceec113d199c8698694d10c2f45988e2a1402c4aee62b840",
+      "mechanical_source_sha256": "32673e9332db004af1c8ad6e9fa016e9262cdd2686e023cf954435041eb34729"
+    },
+    {
+      "record_id": "SRS_022",
+      "electrothermal_source_sha256": "f673835bc2068dbec3c1e354b34b9222bd8d7118801cade90c86523eb1896e0b",
+      "mechanical_source_sha256": "5c9c42cb0cf9700ac0a08b939679129373e4ac2ddcc1ac3eda7525a1b53313ac"
+    },
+    {
+      "record_id": "SRS_023",
+      "electrothermal_source_sha256": "0f7d2d4c912df5e79171baa99bb28493bf2ea185efb7ff0d9c77876b46a8e4a5",
+      "mechanical_source_sha256": "8ba87b57d644447757be008c9f37a2940e19a714b0913e9aecd33da27079e874"
+    },
+    {
+      "record_id": "SRS_024",
+      "electrothermal_source_sha256": "421c6d08b3ac72373d7e7c17686d379794803bf0405e16bfaa453d272a5f0347",
+      "mechanical_source_sha256": "cdf63b961cb94d9e037f927f5b3bb7152be1eb43670e6457c3ab10e233831026"
+    },
+    {
+      "record_id": "SRS_025",
+      "electrothermal_source_sha256": "df5bba9e494b02614cb8c79a10d668e09967e1408843fa21476ac516ee74be03",
+      "mechanical_source_sha256": "4ade95aa2732acfb378a44fa35ef6554dd48e4ee819fc677215da75b94b032a2"
+    },
+    {
+      "record_id": "SRS_026",
+      "electrothermal_source_sha256": "952a8ff1a3a183713e8b2465977be28b5aa2f1e0f27a2da7da91b369af07eae9",
+      "mechanical_source_sha256": "eb33e9f3b87dacdb3e03179c14c5f92ad4476fda34b3ea55bbf9ffdd2f6eba66"
+    },
+    {
+      "record_id": "SRS_027",
+      "electrothermal_source_sha256": "bc3745df4b0d0f272e27cf3672c4565fa19eae5d834ead353822c43c97c3eac1",
+      "mechanical_source_sha256": "72426bcba0cc7c283782a0be8fbd46555ef92c8f5a707e82b1cc99d71fb38442"
+    },
+    {
+      "record_id": "SRS_028",
+      "electrothermal_source_sha256": "cb77d426ed7a8b21a218a70390baf87a750897b50eb184a8f60af3e75eceff9a",
+      "mechanical_source_sha256": "819773d994cacf40ea6116f7ffa582b4bb2991704ed1c3b0185c6f9dbd12548a"
+    },
+    {
+      "record_id": "SRS_029",
+      "electrothermal_source_sha256": "47d779c48e6da3b5e7e9a71f7ca01074b24bc33ad7e632578521aefd1058907f",
+      "mechanical_source_sha256": "54673f46ad43150bf70b9e3f4956d5f2984a51482f091c0e786265bb18318c44"
+    },
+    {
+      "record_id": "SRS_030",
+      "electrothermal_source_sha256": "247110a2589a4838074fe9d653e7ddc9c07be807f7a317e82cc1a282e9e0939c",
+      "mechanical_source_sha256": "36a7bc1d6ad6d0df632d185b84d75475fdaf9bb9dd1e1aea47f92b0306559fca"
+    },
+    {
+      "record_id": "SRS_031",
+      "electrothermal_source_sha256": "a316a07f1f582606d748c242e59a5778b148620edc6d76c5a5cef2e082322f47",
+      "mechanical_source_sha256": "625848a43496d720bfd20dd08f8ff1b08e682cebecb09de294ea1143d192ac0c"
+    },
+    {
+      "record_id": "SRS_032",
+      "electrothermal_source_sha256": "0639697d18399e8c788027c5c0c8694ed8505b6fa1d82c14150fea4aeafaa6e3",
+      "mechanical_source_sha256": "76ef51c9f22a8d918fb960b1984ec00826815f3c1210bca558a9c8aee6f32e6a"
+    },
+    {
+      "record_id": "SRS_033",
+      "electrothermal_source_sha256": "7e4aaf56115416ccb0af78fcebc35f893cbef3f51042f5b776a3eca05d8ecac7",
+      "mechanical_source_sha256": "ce81a6c1e4683a473c713647c89404f56069b1321832ef227cb7034cb97150be"
+    },
+    {
+      "record_id": "SRS_034",
+      "electrothermal_source_sha256": "39ef80c313e27fadd903041d4060bb275b08b0d34835e661b52f63527986facf",
+      "mechanical_source_sha256": "d28558e2b894c8163c1efd2dea50a59673288132222f94d7427586d825f86679"
+    },
+    {
+      "record_id": "SRS_035",
+      "electrothermal_source_sha256": "938fa30579c803a7858bf7e54f737b7a9130fbf00ec984d5d8d6a444f5c82814",
+      "mechanical_source_sha256": "fb9b61ac37a4bf6c602e436b5b7b6f6b2cf00cf9e7ded4964a69be425521af47"
+    },
+    {
+      "record_id": "SRS_036",
+      "electrothermal_source_sha256": "6315b481c8c45338283d94a6e70c0ce0a9d1f81d14fc9ada57bb84192371ee04",
+      "mechanical_source_sha256": "598a7dd555e8d5545e69a6e09549e033cedb02d48396e932065c7495aca49980"
+    },
+    {
+      "record_id": "SRS_037",
+      "electrothermal_source_sha256": "aa7a86ad5b146cc16e8f2eab13642c09877827a18d0558208c23f2ef1ff9b94d",
+      "mechanical_source_sha256": "03fdb3ad7eddd0a4808d60007f3bde3a38ba6c59513d1db242968e34a2c4f621"
+    },
+    {
+      "record_id": "SRS_038",
+      "electrothermal_source_sha256": "ce2adc4c971428325d74c44c233da2575cd392f163305627ae94928b52517ef7",
+      "mechanical_source_sha256": "963240498f2c7ea61101fc1961e6cb1be250f111658227a55de80d6518e105bc"
+    },
+    {
+      "record_id": "SRS_039",
+      "electrothermal_source_sha256": "ab86e42c206ea774432aca0b6434721eb829397960b2c8143888dd454a48afb2",
+      "mechanical_source_sha256": "8b0b300279ef34971b85b6b2175343bcfa5afa0cca88308bc7bf03ae896b32fb"
+    },
+    {
+      "record_id": "SRS_040",
+      "electrothermal_source_sha256": "c923dc191aeefe72c88c51d2cb47f0141c3e04622cc66ce1f1667718063b3b4b",
+      "mechanical_source_sha256": "bcb2cf49ef7eb5e4a7517e1b08fe0ad59fada33a4e4d3d2b7760f3daac8e104b"
+    },
+    {
+      "record_id": "SRS_041",
+      "electrothermal_source_sha256": "32c527fc23a10b66b6a7d1b69ce4a69fbbfbf03e4df57d0d41398468303cbd53",
+      "mechanical_source_sha256": "4f995e8fc5785d0f3b595adf47f002a1b87c8f3957e5180212e55deb7e49439e"
+    },
+    {
+      "record_id": "SRS_042",
+      "electrothermal_source_sha256": "525f08c7be466aa07e9d93a89aa8e4f385802e60f3d66e7efc04447bf567b53d",
+      "mechanical_source_sha256": "b199f944a21a493ff97090eccd7953b55c1701402eb0b9ca5e1c8ec2101dfe3d"
+    },
+    {
+      "record_id": "SRS_043",
+      "electrothermal_source_sha256": "80251315ce30fd69d6e314bc98afce1520cadd8bf600a234413fd4c0473ad36b",
+      "mechanical_source_sha256": "a105c9c28e5143a7ea286071d10f21ef36a32d8c1e99f35070c218ee8335816e"
+    },
+    {
+      "record_id": "SRS_044",
+      "electrothermal_source_sha256": "9bd8d9749b262af77f7d16cca9c3ad3785b130b0f01d2bf466fd16205daf7128",
+      "mechanical_source_sha256": "7871e91724b5295e698a9cf9bcc6e72691f3d8e6977a2e9968dea411eb477bb2"
+    },
+    {
+      "record_id": "SRS_045",
+      "electrothermal_source_sha256": "f294606eed8030fc05ac635bd47afad6b9331691a94f333fb112d2226cd067c5",
+      "mechanical_source_sha256": "96401054d79d66f210cda272f685ada5ee6340a5085900facd6c02611c4c53f0"
+    },
+    {
+      "record_id": "SRS_046",
+      "electrothermal_source_sha256": "6d8c284221bc1f80cd49b4881005c2ce41db9990044fbe9016a7bbfa3f98e8a3",
+      "mechanical_source_sha256": "732344d657a45e70a42e4f32bec30f16c9d6629a3aa2aeff88122a26fc677787"
+    },
+    {
+      "record_id": "SRS_047",
+      "electrothermal_source_sha256": "76e1f5f16c466d8535cb56779b1470a38ed2e28d505cab0d089be648c5e8bfe7",
+      "mechanical_source_sha256": "ad10044c33b83808735228a9a9752ad6f9540473e688b932e367ffebe5d1ea29"
+    },
+    {
+      "record_id": "SRS_048",
+      "electrothermal_source_sha256": "c3cfd9197b72cfb168cc08002fa21396263298761a320a37e09fe8492d82d31e",
+      "mechanical_source_sha256": "c9e5c9fe74835ef998014b743edc13250ce49027c509ca4b1b78d7a74252b2f7"
+    },
+    {
+      "record_id": "SRS_049",
+      "electrothermal_source_sha256": "552e7fb6e8b46ef7585b0156ff576c45f2379afe73464fa4fd578043dce123d4",
+      "mechanical_source_sha256": "cc9db690c95b3faa36cba1f37b4fd99beb915b3ec115ee700b0d507bb3f8d4e2"
+    },
+    {
+      "record_id": "SRS_050",
+      "electrothermal_source_sha256": "1a2c97ce6549404a3602dd76ad3cce79bfeabb00eca01cb597049889ccbafd90",
+      "mechanical_source_sha256": "8e20d2800dc955138851dbe09d9c9dd4fc8c86b68d40305ad07d3b3d6233e78a"
+    },
+    {
+      "record_id": "SRS_051",
+      "electrothermal_source_sha256": "c232ba728472bbb8e4efd0c26b67c1f888d218f21df4c6dc9e915b1af4d9570c",
+      "mechanical_source_sha256": "2ea08d3c812c2084d20ebdec24bab9069a17c996a84f0ca5d648c552934d7822"
+    },
+    {
+      "record_id": "SRS_052",
+      "electrothermal_source_sha256": "fe45c707b0a4cb248a71b47cdba6d52f5d0c17dbbdbade4294c875888a14bec0",
+      "mechanical_source_sha256": "76566d62141e314f033fc4f2de6b1db08262a7f2fa7fd5d46ea6ec9fce3761ef"
+    },
+    {
+      "record_id": "SRS_053",
+      "electrothermal_source_sha256": "67b6fc56c4bee8e070191e58bea5ccb0129ce33f5cc2708973caf08274a2c5d8",
+      "mechanical_source_sha256": "de3ee56633e15925828e5a243e8ed3e1c03dfe7ba11045d60e12d8ed9d9a7430"
+    },
+    {
+      "record_id": "SRS_054",
+      "electrothermal_source_sha256": "40b9e320d385fe37727e055144badb73aff9a09c2a6b4d29386ae74415722e81",
+      "mechanical_source_sha256": "ee08fe1cfbbadb9ef02379421daa68b311b10d476452cc44a39efcb2f95ef2e5"
+    },
+    {
+      "record_id": "SRS_055",
+      "electrothermal_source_sha256": "f85082f1de7093995ff15a2ceee304b42d9083921113929aac20eade30ddd278",
+      "mechanical_source_sha256": "92a510aa2b9e27cbffdd9acaef318f9c8603ad54030928e2d260d258205e7430"
+    },
+    {
+      "record_id": "SRS_056",
+      "electrothermal_source_sha256": "75127a2465758a817c63fff51b81f990080265b70945bce554d3f819736a1a52",
+      "mechanical_source_sha256": "b3e1153bd6750fbe29e7ea9e912ec8c72c754c9db3b8e256553d6940fe315f51"
+    },
+    {
+      "record_id": "SRS_057",
+      "electrothermal_source_sha256": "c6a940eb578ae802bf1b2eb5d95905b22d936e1193f422988973e9528fe026a7",
+      "mechanical_source_sha256": "48870a9197ff5528c4ef2bd4149e6675561413faa6c619f4709f3478e7536abc"
+    },
+    {
+      "record_id": "SRS_058",
+      "electrothermal_source_sha256": "07c7ff00eac49fd82283fa97ae607ede84a422b3bea95940890894094d1bc7c8",
+      "mechanical_source_sha256": "849aac60b00772572447cbe099c213f94f22dfe7a955e0909c72ae9a46d6fc10"
+    },
+    {
+      "record_id": "SRS_059",
+      "electrothermal_source_sha256": "c388609bb7a6912ef683fae7a50ff29b234a79d473c48026ad412ab7d26eaec6",
+      "mechanical_source_sha256": "3805fe2d907c3aca65b623c4be2716f4fe6c3c2248d8ce0c3fe94a4bf195fe45"
+    },
+    {
+      "record_id": "SRS_060",
+      "electrothermal_source_sha256": "c5fd402ecdd8afdc6cd61f7eb1ff3c24d343df2b2e222faf3cda61375ec2073f",
+      "mechanical_source_sha256": "6610be772f87a12bd47b78ec89960620a1fa45442b7c7484f35299fdb3a207dc"
+    },
+    {
+      "record_id": "SRS_061",
+      "electrothermal_source_sha256": "f333432456debabc2c2d6daaa3b3fe8760320ce14e9ce713f8fcb42c8927b825",
+      "mechanical_source_sha256": "53abaf01b01f7d3c6dead47918aee782372de41fd0e0611b3967df664044ee30"
+    },
+    {
+      "record_id": "SRS_062",
+      "electrothermal_source_sha256": "2a6c7022bea7cefd4c542c3c712ea5218a98e06af8fff3d381babbf1b6390c74",
+      "mechanical_source_sha256": "5cb0722d06ea2b9ddda66cab432cdd14f945194bfaa3c9a07f8cb4ec0dbe805c"
+    },
+    {
+      "record_id": "SRS_063",
+      "electrothermal_source_sha256": "bd16012f60bf34526fde8038d309ffe2c83159e3869a12a115f4d00a7e8b985f",
+      "mechanical_source_sha256": "b8bed167697125b6704f029690a3ce849d237aac611785450899090df5921a7f"
+    },
+    {
+      "record_id": "SRS_064",
+      "electrothermal_source_sha256": "ce454184107eeff05a5b98e11fd77b849749aeb760dcd429392ed0759be2faa7",
+      "mechanical_source_sha256": "39783df39a06ac38a908205a944a3eae6c7e3087e7ea25e4f4b2c5eb61355c75"
+    },
+    {
+      "record_id": "SRS_065",
+      "electrothermal_source_sha256": "7daa4e2a232acb163399f7657e45093e3a38f8f03ba42fbe5f2aa2c1a0862573",
+      "mechanical_source_sha256": "aa54def0f05ee18525c403d0c8097830b3c971dd4a8ecb9fa634691737bd0f89"
+    },
+    {
+      "record_id": "SRS_066",
+      "electrothermal_source_sha256": "be10d69aad61fff3d5d286386af0642470b1a59af592b5b8d7d9cbb974abea57",
+      "mechanical_source_sha256": "b6d157333eaaff85557f3a17fe6da01014b51e548509f779d3a74b1630a3aa2f"
+    },
+    {
+      "record_id": "SRS_067",
+      "electrothermal_source_sha256": "108ee480f5e39428ae886962f1f6a5355c5a8f9804ce048037ae313116fc9a7b",
+      "mechanical_source_sha256": "917479df6858a8e11232df8b9eb4603f03712f8c30cba0c96af72c0e68a4f9fd"
+    },
+    {
+      "record_id": "SRS_068",
+      "electrothermal_source_sha256": "bbc0ac7aae4deed3acf476a92ba219aa3110fe6865ff7b8880c835254f6b153d",
+      "mechanical_source_sha256": "5dab9a0b544bc8e38df7ff93f23969223f0af834b7680019e82a118668b0a2ed"
+    },
+    {
+      "record_id": "SRS_069",
+      "electrothermal_source_sha256": "22a717c24ee7d93bcb791d2553fd2c5f9a29c6ae057f94cb74bf4f8042bcf0c9",
+      "mechanical_source_sha256": "27535296588e5e915a3cd111de2fc28e648b53287acef63960c173abae15567c"
+    },
+    {
+      "record_id": "SRS_070",
+      "electrothermal_source_sha256": "579c810c670d86d5c25588c48882ba3e42408cb79ac22f9347628c324d457f2b",
+      "mechanical_source_sha256": "e7369d22d4c422f9d169d50ff161b47a4d93007ee8d71cb32ec7487b828eb88b"
+    },
+    {
+      "record_id": "SRS_071",
+      "electrothermal_source_sha256": "4b6010807e135781c6d1952b6ce0f2814d0a696042219f3367fb9c29c52a50db",
+      "mechanical_source_sha256": "cae3c09c3ec075b47503300689740e8539388917624ba8ee43a1ee1486f06929"
+    },
+    {
+      "record_id": "SRS_072",
+      "electrothermal_source_sha256": "323ee5ebfd9e3241971f70ac5e0369ddd9d40140c1a46ff63f06f3569f149370",
+      "mechanical_source_sha256": "cdcc3861994b6185b21bfa3c7dc2f11f1501a54e937c48432cca9873627e6325"
+    },
+    {
+      "record_id": "SRS_073",
+      "electrothermal_source_sha256": "c99568ca79e8244f68d07b917c16f83e6e91888af9859c7102780e3c7700aa74",
+      "mechanical_source_sha256": "3ca3fed1eb422680ea0eefe8de00ffdcf33750b7c123b498aa1eee89a8846014"
+    },
+    {
+      "record_id": "SRS_074",
+      "electrothermal_source_sha256": "d7f87b812f24b3d2f82a6525c9ebeacb92fc728c93c1be9d8d55046e5fb56dea",
+      "mechanical_source_sha256": "d268065f35ba76d421933552ba19cd7c1bfee3b09ca3e6346b19957f07b856cf"
+    },
+    {
+      "record_id": "SRS_075",
+      "electrothermal_source_sha256": "4196c8e21af641e34f71279409bec54567addd977cfd4684c70508a9b43c1dba",
+      "mechanical_source_sha256": "7ecb3d851c73615cbeaa52a6f72f99b31da3546bd2b9153e6a5fdf2c2cc79334"
+    },
+    {
+      "record_id": "SRS_076",
+      "electrothermal_source_sha256": "3e6ac81d79fa965186683737e7fad11c80a1f65894e925acb8d0000f29ed8c32",
+      "mechanical_source_sha256": "33566b35718b20bbcb98e11197e548dd715d35e328ad5ee18cbfa11b1fd584b2"
+    },
+    {
+      "record_id": "SRS_077",
+      "electrothermal_source_sha256": "56e63417c119f28cd3eea0dc7d8dd5673c9d692f1d9f0e4b78669dd06e1dbe70",
+      "mechanical_source_sha256": "754aa4480404ec6ae540cc47cf48aa964e11b996e1fabd23c54f8b7207cbe0a4"
+    },
+    {
+      "record_id": "SRS_078",
+      "electrothermal_source_sha256": "48576c674e7bc1b853043446a7d794f1ce4b7c128ad4bbdf17ea581179daa325",
+      "mechanical_source_sha256": "c61585e4e52abfda9f25dc706a68bc87e422fd69988733fb542fd0ae55911fff"
+    },
+    {
+      "record_id": "SRS_079",
+      "electrothermal_source_sha256": "580a4be4b7ec986276b97f82d8f0a47d0ac36ca7f621c01ad1c249e3c3470882",
+      "mechanical_source_sha256": "c76952959c2c953a0e9c6770e5caaef8775e1e77e1abc2bc9336187082cb2903"
+    },
+    {
+      "record_id": "SRS_080",
+      "electrothermal_source_sha256": "f8fdaca9e6a810c9a53bcfca77b43cb18f3483013468bfaa5caab5bad5139139",
+      "mechanical_source_sha256": "656d4286006e3d859d88e83875d37fc301d4c6590f51e2cf7259ac0a9572d419"
+    },
+    {
+      "record_id": "SRS_081",
+      "electrothermal_source_sha256": "2ed36c429e3c26fbbb5976f11afe9fa6e467125676d760b2f5797782624dc925",
+      "mechanical_source_sha256": "d49159a1e0ab918f3b59ce56ceda737eb4bfad24ec106f9f49f42aaf5aa1e2d0"
+    },
+    {
+      "record_id": "SRS_082",
+      "electrothermal_source_sha256": "f9274f23204e91910db337832700e3a725cf66b09f368daa09d278f75b365f43",
+      "mechanical_source_sha256": "70cf0bdd3fc4cc4b7d8eea895b26dd345be9a8c467393155a1be26b348ce0c18"
+    },
+    {
+      "record_id": "SRS_083",
+      "electrothermal_source_sha256": "15327df326f27a152242221065a3c2a56a3fd9e545d6dc6960e5f8c60c38f0b3",
+      "mechanical_source_sha256": "0a35433a0ccb57a5d6e578f7d3a0c2a69efce2ebc85f83f025f8369196485201"
+    },
+    {
+      "record_id": "SRS_084",
+      "electrothermal_source_sha256": "9d4182f0ae8948b2a4cbc9ecc25eac8c855e9e809a57ff6d1b391e74372ff527",
+      "mechanical_source_sha256": "2bedc9f961e0d0f8b5d1a816cb395875708d3419496ac84bc83c5aebe9480f44"
+    },
+    {
+      "record_id": "SRS_085",
+      "electrothermal_source_sha256": "ca64ed14da8150293ef5bab3e006c6c0d36a80cea9e97a1aa56bd8e1b06a59e3",
+      "mechanical_source_sha256": "d779645f6e40edca813995b9f39fc825a91232118888c8353569938e2fbc9157"
+    },
+    {
+      "record_id": "SRS_086",
+      "electrothermal_source_sha256": "28167de96cfd76c7a30a2cd891b47af260641f9738cb96b53bb2b67ea9aa1607",
+      "mechanical_source_sha256": "8275c6ce944075b55d47664f5e80f83b64006e23466e0e704a07c551e8fe23fd"
+    },
+    {
+      "record_id": "SRS_087",
+      "electrothermal_source_sha256": "222f364923aea04bd8621fff1114e09d2b61fe10d2420bde98350da06aff81e1",
+      "mechanical_source_sha256": "dbd5bac1144751920de34c6ce0282463ca9045fcad29059d703ed425985c1930"
+    },
+    {
+      "record_id": "SRS_088",
+      "electrothermal_source_sha256": "83f5c99762c95f149eec3b06f9d81b746d30d122cc97b70e601ae02cc0effd9b",
+      "mechanical_source_sha256": "14a3a7499aae03dd0dcf8514dd9ba1c213364672584656a0518e8d9cf69ba6a4"
+    },
+    {
+      "record_id": "SRS_089",
+      "electrothermal_source_sha256": "220e62b24b214e6398f6f289fbe6efffc9b3a9b25e6233ba4cb768425ea428cc",
+      "mechanical_source_sha256": "c825f49989b9109e5fbdae43c701b2b446f14583e31370553bfae883249a1f6d"
+    },
+    {
+      "record_id": "SRS_090",
+      "electrothermal_source_sha256": "d01be6f3190eaac2f41a8a765b25583eecc5703d3eee97a80dcde0d539b37464",
+      "mechanical_source_sha256": "8f82d12936f407c9b510b6b2ade3d33716bb3a6831767b9d0881d1bf08f4677a"
+    },
+    {
+      "record_id": "SRS_091",
+      "electrothermal_source_sha256": "fce56e55af8777e806399855386e9c3e43f9ae0d0ce56e49e9a9ca0927a97e08",
+      "mechanical_source_sha256": "107f6bbb985d3247349eea6b2eb9676a54c10af5115fdb90c15ace3be5d27c8e"
+    },
+    {
+      "record_id": "SRS_092",
+      "electrothermal_source_sha256": "ad73540e5f3ef302b6191b9e57f664207327dcacc1d43b88ef5e8621a3c13cdb",
+      "mechanical_source_sha256": "bcf729076a0b84971cea6674e0b9fa138aa3d36e0fbe5ab42a20e8197c3aa1cd"
+    },
+    {
+      "record_id": "SRS_093",
+      "electrothermal_source_sha256": "b8aabd9b9a2479405c5bab5bde705a01c051ca49efe942abb4143d755914b082",
+      "mechanical_source_sha256": "ae6bdc5b29f3f1d54ac21f6fb7265cebced17f2a50645e80e1fdde21970e532c"
+    },
+    {
+      "record_id": "SRS_094",
+      "electrothermal_source_sha256": "bd1a5edbba3d2890e14eaf5ce9a572f401c5bc2d2c52da967556c11c4c88816b",
+      "mechanical_source_sha256": "6ed97a0dee3cbdd244bf718c0e8fb447e4fdfc93ec3befa58fec3a48f1dd498e"
+    },
+    {
+      "record_id": "SRS_095",
+      "electrothermal_source_sha256": "a25f37798632d491e6af5d89d253694880e341673ef5a5ed2155fc160694b86f",
+      "mechanical_source_sha256": "29fe2720b9929fa6235af923c44edbd040ac5df7d429c47504b25ce5b09bd96c"
+    },
+    {
+      "record_id": "SRS_096",
+      "electrothermal_source_sha256": "f8f7c051828b895dee88ac9afb04c8780780bfe89f6ff6440a04cef92a755d09",
+      "mechanical_source_sha256": "5ba468b79999fb71ac99859db9dc0302ff46cecb9f478025516f1766dcaa114b"
+    },
+    {
+      "record_id": "SRS_097",
+      "electrothermal_source_sha256": "8bb57724c4d1fcb04c406e883f0033d7a10bed48db51dcd13efd51eb28e30489",
+      "mechanical_source_sha256": "d97d3051e6d5f31e6152467ab91a9dbe660bd68ea95df5547916d0e3729fa9b1"
+    },
+    {
+      "record_id": "SRS_098",
+      "electrothermal_source_sha256": "5a98e4de8d1bfe9a6fcc03949e534d14bbbf2730510092335d5e9a443d8d9097",
+      "mechanical_source_sha256": "b929554cb23db678f0b942c05d9add1d5453fbe889a39b7aaf827083747eff3b"
+    },
+    {
+      "record_id": "SRS_099",
+      "electrothermal_source_sha256": "e61fa2549ecb3beae6c18f18934a6d9c5ef1d15288558a9e4cfff48e393816c9",
+      "mechanical_source_sha256": "af8e071ffab52ca7ea80554284d8fb3bc3868c0d94b2b954d396498a674eef35"
+    },
+    {
+      "record_id": "SRS_100",
+      "electrothermal_source_sha256": "605315a5a821afb47edab8859b03cd2fb2d2810cb324753bb6ee3f646e53a521",
+      "mechanical_source_sha256": "02162796d9f6d280458fe82774949fdf741a015a17679d6a642a66dbfc854e3c"
+    },
+    {
+      "record_id": "STR_001",
+      "electrothermal_source_sha256": "fd6f41327382d7d428f79b8645cad1a456b2b744317223e333e831f65a05086e",
+      "mechanical_source_sha256": "7dde41ba8c23e19c4df2e4ccda4e7927bebdb00106ce3ccfba33ce8634306d58"
+    },
+    {
+      "record_id": "STR_002",
+      "electrothermal_source_sha256": "9d0a4f764c2b2acb0f40d4f2fb2615113c09128461e67d559e6da73a485f5759",
+      "mechanical_source_sha256": "5df89682c70e831cb2951a08aed5c788cc140cbbab3bf0fa2e0b555041aec143"
+    },
+    {
+      "record_id": "STR_003",
+      "electrothermal_source_sha256": "c2ec93f26a686c31870624e058db04d1e46644550bc68c518d49c0fbac72591b",
+      "mechanical_source_sha256": "c2c657fd88e2e7e0720fa6d799b468c01fc86ec2c272b25cf520d1ebd129c389"
+    },
+    {
+      "record_id": "STR_004",
+      "electrothermal_source_sha256": "1259f1f8bd1e54efe748f9b4349d75b249815e663a5b7797b609476d1938ebae",
+      "mechanical_source_sha256": "fa20a4cc647b823bba076dd09f46f19e7fc2112595932b57a1e808dd529c5abc"
+    },
+    {
+      "record_id": "STR_005",
+      "electrothermal_source_sha256": "765b74f482c48592f67d94e0f7fed6f1317fa6dec3dc8020c3feabd1e39fd4ef",
+      "mechanical_source_sha256": "ff8b1a59eb5c042111d4523d16ea1f5d2c43c7fd8bf4aa9552e3d92777e1023d"
+    },
+    {
+      "record_id": "STR_006",
+      "electrothermal_source_sha256": "2f17bcbf62aa36a0c74a16e52654eef60930e08429e08bd9d599fcdacc34f176",
+      "mechanical_source_sha256": "6fc762d12020bb79454f5778f4db14d65f030f74c63a51b0d763d04415362854"
+    },
+    {
+      "record_id": "STR_007",
+      "electrothermal_source_sha256": "8028068ab708228a5af7ae9f76c416a441198577e4035ff12fa88f1ba9546c3d",
+      "mechanical_source_sha256": "f3b64ba3c6f3a3ee0491d42d0e523c3ab6baab74d385f7aca40b533a5de5ad93"
+    },
+    {
+      "record_id": "STR_008",
+      "electrothermal_source_sha256": "29add64228621e90a42a29c01aec6688105e36baf3398bebe2f899ec67ec97c3",
+      "mechanical_source_sha256": "9973f575f1f6e78bd2a49cf68174bb390588222a128042cd314c4479b180eed1"
+    },
+    {
+      "record_id": "STR_009",
+      "electrothermal_source_sha256": "b42db2f815f2022c734deea747298d1ccdd29036ba5065f66a51d886af011e74",
+      "mechanical_source_sha256": "3a1497cc0c63411914d2d94a8a8f7a9ed57b6cd96cfd9fa6eb030a50a8738471"
+    },
+    {
+      "record_id": "STR_010",
+      "electrothermal_source_sha256": "fe8d37d2aeff1cb458034a88f0f1e59030366b38550bb4d2bb199fea99dacc92",
+      "mechanical_source_sha256": "517cc2d4928e074345e6923a7d84dafb4aa5e0434b52558a3b905153ddf04178"
+    },
+    {
+      "record_id": "STR_011",
+      "electrothermal_source_sha256": "68ef25c31ba264e94cc2d515b45e8fac9304a522fdf112447554c58770a757c8",
+      "mechanical_source_sha256": "b5cba7cf8fdf540e667fcb67f7860f2dab7ddf7cb94c279abfe19a4359d6955b"
+    },
+    {
+      "record_id": "STR_012",
+      "electrothermal_source_sha256": "a1fc70bea7fa88ecef173821662531cffd1acc054b243057e450a1e6d0f49123",
+      "mechanical_source_sha256": "9a3fa9cdc6dd77193a3bc9d46c595f7d19fd66af4a5863454862fd07bca9884f"
+    },
+    {
+      "record_id": "STR_013",
+      "electrothermal_source_sha256": "b9c3dad5e3b449975ef3c67e125561b46baf03ea505e3f979bf4e19cebfbb36b",
+      "mechanical_source_sha256": "c7bf30b9cf6fc9b30964899207e1e884d9af23177e331372624b87d743b08c29"
+    },
+    {
+      "record_id": "STR_014",
+      "electrothermal_source_sha256": "1be870c9d7d86409331e267ad3b6f11c0a0125d697b82231898a91d0f930614e",
+      "mechanical_source_sha256": "2fb3309291c591fdf6e3a4f8c2831f5522f93b027beda132237db6358f9930c2"
+    },
+    {
+      "record_id": "STR_015",
+      "electrothermal_source_sha256": "b1cd4b1258de7818e879edbf0598910f19413733ccf53b1a172fe3c3d82c7d7c",
+      "mechanical_source_sha256": "e21f2c110399e3795dace76c57673ef9b6c7130090712522610b89c0bc0a3a35"
+    },
+    {
+      "record_id": "STR_016",
+      "electrothermal_source_sha256": "45c9e243c586b948e5954752af674b0af1a570120ca71e5d617f65411afe20b9",
+      "mechanical_source_sha256": "2f12b0e1f0b46a60930590ad2660039765d16256753c7e045e96fbe716809f5f"
+    },
+    {
+      "record_id": "STR_017",
+      "electrothermal_source_sha256": "e89af48fd8ee2fc5d935f02593a2a7f038a25668f80384142b4ad2193f33a9a7",
+      "mechanical_source_sha256": "b2b3da5304319c442ff15c412a6686c4021eb2f3b2e5225f585ea444afd13641"
+    },
+    {
+      "record_id": "STR_018",
+      "electrothermal_source_sha256": "9857d615358f1113dabe45a5589dae91df6ddfdca536e994eb39618a3d654908",
+      "mechanical_source_sha256": "0263ef64fdb0549de98656fbab65a81f9fe76f106d297350a615118dcc20b72f"
+    },
+    {
+      "record_id": "STR_019",
+      "electrothermal_source_sha256": "2a4c342fb5dba3333cb9e5187538f79eb66f6cad998362f3940644bea99edac4",
+      "mechanical_source_sha256": "ef8b07493440539f9c685d3299ea6c1c132c7562bf03464475f07c4e83483d23"
+    },
+    {
+      "record_id": "STR_020",
+      "electrothermal_source_sha256": "0fb20dac0d8961e0a0a850a3a2ae2464c60f0790f2c3db87f0f120adeef9ad8b",
+      "mechanical_source_sha256": "640c1520e39f534649af288680f1e3297101c7b64b1096f690c08d12e1ec06da"
+    },
+    {
+      "record_id": "STR_021",
+      "electrothermal_source_sha256": "492b704c83a4b308ce65ebb2dde9103539fa8cbc62be264c2c86ee4ee0a02db7",
+      "mechanical_source_sha256": "3da523fbaad2231d1dfb6f7ab943716b061963eff20a126b7be94fa1d348c97c"
+    },
+    {
+      "record_id": "STR_022",
+      "electrothermal_source_sha256": "b1d27d2a0e37046042bb11396b420df13b4ca6537739c0db71711746d12d30e3",
+      "mechanical_source_sha256": "5c3ca26297e5963a6ea16ff8477f218daf396e6ab493ebaf64c7a3b03af0c7c7"
+    },
+    {
+      "record_id": "STR_023",
+      "electrothermal_source_sha256": "a180fe230d1f558bd3d8808f6228d830fc4563d83a1d4fae4718d74742db257c",
+      "mechanical_source_sha256": "66786ffbc82c9840311922cc1df70b9fcf0f73a978827f4011ab85c6ba88d154"
+    },
+    {
+      "record_id": "STR_024",
+      "electrothermal_source_sha256": "cee3ee24447f1fef56a7705d0537fea8f789b22d4d9d2d0c60fe494b305e6345",
+      "mechanical_source_sha256": "3e1417b264fd170c6b2b070026f909755078b726d0a0ee851efe74a866274fd2"
+    },
+    {
+      "record_id": "STR_025",
+      "electrothermal_source_sha256": "a1f47546949b8135d509da571ed0a93f97f1048898343d5128d7d7cb90a4b683",
+      "mechanical_source_sha256": "9a31ca653e3598c560ab07dbff4e97c02ffee47c72fde0040a38fd67d2967281"
+    },
+    {
+      "record_id": "STR_026",
+      "electrothermal_source_sha256": "862ae7c0635e3a12382328f878bf6026a5c6c8fd33cc6218a2d8f2590fd47d13",
+      "mechanical_source_sha256": "f7ae78755ddc03be32437458ad0d79b982bacb164b130e3cb1ea394c665c92f8"
+    },
+    {
+      "record_id": "STR_027",
+      "electrothermal_source_sha256": "e17cefa0af4cd823dc697f75025015d31cdb295a725dc7cf1f0e88f748d9804d",
+      "mechanical_source_sha256": "9cc148fc67750512180e989b0dc4605fceb4a1a3c63f6dba4dc78c4414aa766e"
+    },
+    {
+      "record_id": "STR_028",
+      "electrothermal_source_sha256": "dbeb39fa320c93927238cde28ede8938462f6de07390452363b1c656cb63670f",
+      "mechanical_source_sha256": "6107d154bbfe2a4f71a958656a588fbd4f3f0e947d9dde4966e8fabf81f9a707"
+    },
+    {
+      "record_id": "STR_029",
+      "electrothermal_source_sha256": "8026addb4279e542a586c0b66c102e9639ee20fe8d09777dcbcade87bb927f46",
+      "mechanical_source_sha256": "105cb4bc4b178d225470573ea77a391650342684f85242b98942ed15545a4c20"
+    },
+    {
+      "record_id": "STR_030",
+      "electrothermal_source_sha256": "fa8037353c92512795d0e346a68910555f5107c620d06139fc1f491294a1a41f",
+      "mechanical_source_sha256": "39014c87d48eaebbbf3fa161cd07d5183085288969bcb2d2b0a395f70c4f076d"
+    },
+    {
+      "record_id": "STR_031",
+      "electrothermal_source_sha256": "5dccc32154ea731a0dc6c2341ae7a14e7f4bd4dbfa6bea2a329746120c3660d4",
+      "mechanical_source_sha256": "eeb3c37912f4dca1e58288db1a59b30c201e7632eefb9a7e48aa2cfe16824033"
+    },
+    {
+      "record_id": "STR_032",
+      "electrothermal_source_sha256": "87d1881a87e6968634e857aef098bb0730d39a1114938dae0adba36513996183",
+      "mechanical_source_sha256": "8202ef0714f832476db7708c7bc11646290a5337809b0ead9b8f3d33c6e6e8a2"
+    },
+    {
+      "record_id": "STR_033",
+      "electrothermal_source_sha256": "cae4d15ff674d1fc250d4f47b657cf0422f44fec809cdc8e6b508846174a81af",
+      "mechanical_source_sha256": "52665cbd61949a621ced5addd6ee635fbffd8a224075676e245e42425620f8b9"
+    },
+    {
+      "record_id": "STR_034",
+      "electrothermal_source_sha256": "d1900a4244183ea2c92b83fee792f465fbbd2276bc9e86c060333f336bea439c",
+      "mechanical_source_sha256": "752c9e0f89b3503bc494de60f8d28246d5b646f2a46bd68e7d9abc43ee9ad031"
+    },
+    {
+      "record_id": "STR_035",
+      "electrothermal_source_sha256": "b7941d4a1b4f00d1ba40b93ac07db6e36d9f31193ccf942e66c6b6beb05f7ce1",
+      "mechanical_source_sha256": "a4c03ce2e155fc7c1cee0db8fae3c0f2c199c7f9be3decfa2801aead788f6a7d"
+    },
+    {
+      "record_id": "STR_036",
+      "electrothermal_source_sha256": "f5909065912f7ae9dccd5989333c0a61df9754ede2b015e720ddb4fc6698878a",
+      "mechanical_source_sha256": "e1f5493b5d6c736219bcbc3cedb0e1bc88d81d61ad5cf4b613b66eae08a4ee02"
+    },
+    {
+      "record_id": "STR_037",
+      "electrothermal_source_sha256": "2c3a3d65657d3791fe712342069def7dacba871e15667e3bfa1be566e7cac396",
+      "mechanical_source_sha256": "61c6a090f08c30e081681e6e1ce5d620c03faef28aa9b2a3d9b8658ecfd85cea"
+    },
+    {
+      "record_id": "STR_038",
+      "electrothermal_source_sha256": "4f0d00d4afb03b58a23603f9f29ee64af18eeb41a64ee4c467297a71593014e6",
+      "mechanical_source_sha256": "0b7446e9a3c6cfcd32906c72e5a96d5bbef644f1bfd8a22af04a36261d8c4f46"
+    },
+    {
+      "record_id": "STR_039",
+      "electrothermal_source_sha256": "800f38a90ba4d962b1b7d0e10453e82d15ba0eb5e42257eb099ef6a491b80b99",
+      "mechanical_source_sha256": "e2d2b8e9a98ce61960149638f669259f13c8c98877fc95fe95fda0d791161ac2"
+    },
+    {
+      "record_id": "STR_040",
+      "electrothermal_source_sha256": "728eae0492bac343d8805ca4d1921feab9a147866c68e8dac90555053d3590b6",
+      "mechanical_source_sha256": "060246286e63a7288173bd4c80f7c0f13275a4040df15ea6b613af3b37d7191c"
+    },
+    {
+      "record_id": "STR_041",
+      "electrothermal_source_sha256": "591ff4ae5e7d1948086f2ce994f6873b4ce397da189bcda26fec55e9071e997a",
+      "mechanical_source_sha256": "e377d610c0cf3f2a7d58c8b8fcf38b47ca2227e0e33b12149f8476521a093ce9"
+    },
+    {
+      "record_id": "STR_042",
+      "electrothermal_source_sha256": "0ffe5c112adb1a2307c2c22e0ccd325f5e881d5e425019856ce2a8d7a10434fb",
+      "mechanical_source_sha256": "0f3194a7803d80fd572bac7f00b800556e05400901cb768ca7029a204e38404f"
+    },
+    {
+      "record_id": "STR_043",
+      "electrothermal_source_sha256": "467e1e816b2c91abd38f36e7fc2cc5148369d52a41b2fcbe92d4466fbee4fef8",
+      "mechanical_source_sha256": "ba16a3e00ce65887851dc02672f4e465e568f53a5a1d44360716f27de3482432"
+    },
+    {
+      "record_id": "STR_044",
+      "electrothermal_source_sha256": "464bb69867287f9b603dc18e7f2407e77dcb6ee585e319c96af1ab554e5d5f1b",
+      "mechanical_source_sha256": "d4abf0678a4e39584c33f39fe8d278634a4fcae1905bd438464af94501a70450"
+    },
+    {
+      "record_id": "STR_045",
+      "electrothermal_source_sha256": "4e159c0574b253bccee7a1f265cfa94e1c9e736bf1977ae99da2dd2ed10fe1d5",
+      "mechanical_source_sha256": "4aeade6262d99de4c690223611e00dfb9327e588d10b93c3c7fcf4f1567e3019"
+    },
+    {
+      "record_id": "STR_046",
+      "electrothermal_source_sha256": "3835733bb14af40cf48168d95c9f48f87a2f0d633df5a51f99cbcc5d2ff689a7",
+      "mechanical_source_sha256": "204ea0054604b905c3642852c36627044501f12680c8ffe5da09e7bab6d76a9d"
+    },
+    {
+      "record_id": "STR_047",
+      "electrothermal_source_sha256": "c11e38350ec58727743584f5263b25665b9999b6f907346e80c99f0e386614cc",
+      "mechanical_source_sha256": "59bc5f46ed6aca6315466da8c8b5949a6584223b7fa46549d55893ea48e949b2"
+    },
+    {
+      "record_id": "STR_048",
+      "electrothermal_source_sha256": "da452a9f97dc1f0945d61bcf11ccaaa886dfffc811393b9513a5569d385cd4b0",
+      "mechanical_source_sha256": "847fd7080aa04073e1a9517d34697cd56e37364dc96ff26fa6fa40828e022a32"
+    },
+    {
+      "record_id": "STR_049",
+      "electrothermal_source_sha256": "8cc2777075d58f7fefcedbdc9423aac53ff94e03e7a1ab86044bcd55bdc8fe53",
+      "mechanical_source_sha256": "812a72bb920d326e33a32821eb4626725d2eccda3cdd4db1ed550b3b1119911e"
+    },
+    {
+      "record_id": "STR_050",
+      "electrothermal_source_sha256": "a2218390bab81821ea968864ab47319ee1ced145a0aacf916764d99d63c88d24",
+      "mechanical_source_sha256": "e757f80fcbbdb2b0df277a5534602abc91276f6574b2a82174fa69f98d17510b"
+    },
+    {
+      "record_id": "STR_051",
+      "electrothermal_source_sha256": "db7a62dbb51ff0cf4c18fd90fc7542bfb646e9164c30d44bae6c80d14b982123",
+      "mechanical_source_sha256": "ceebe0076a31df4d87ba1987f8b9bb072e2406f646abb742ffd44e450d691782"
+    },
+    {
+      "record_id": "STR_052",
+      "electrothermal_source_sha256": "6e67231b4f5f1c525ddfec132c7631848c6e3875a81ea62b98448c817fa4bec3",
+      "mechanical_source_sha256": "ebeaedb04db6f89dc15f0c2a460da083f0fd8d769a2632e71cddecce9ecae6cf"
+    },
+    {
+      "record_id": "STR_053",
+      "electrothermal_source_sha256": "b975fd3df44d804f0cc9f9ec8ce52179efaeca6d9e01bf8c014e53faa82ec5ce",
+      "mechanical_source_sha256": "a55c42a8b2cac6aa3a54ee2b119abf1c4aee7e3469cc72984694edae080a6cf2"
+    },
+    {
+      "record_id": "STR_054",
+      "electrothermal_source_sha256": "cb7317f8e8b8a206c18cd50ef873887ea7fee7090d76c778f9002fd8637eba5e",
+      "mechanical_source_sha256": "afa212ab53ceff5268e3e0cced8f0ed0425c558541c3325a4bd6fedcff0d2d92"
+    },
+    {
+      "record_id": "STR_055",
+      "electrothermal_source_sha256": "6b3d3a6c0ec6833ea10856a6dfc2ad899736b7bab518c88fc9104164d466ffc1",
+      "mechanical_source_sha256": "3ea9c69b5cd866efb056d9b84fc11dde59cfbb03d70ad06de3258a96a3c68ef2"
+    },
+    {
+      "record_id": "STR_056",
+      "electrothermal_source_sha256": "15c1c668cdba2d163de37d533509afbf65182059ce8cc8f3299962a386727f36",
+      "mechanical_source_sha256": "e753692cf9c8a397eb868af6d67fb125a4383e89944829c6a3af0c6fef923213"
+    },
+    {
+      "record_id": "STR_057",
+      "electrothermal_source_sha256": "45d17f3544a3d22cbd6121dcfc00abf30d3abb6c59b618b930b43d17462c7f4d",
+      "mechanical_source_sha256": "52bd9ad205b808c72b7045f9f0cd479b0bb5c31b6c64727d43c7b3aa91063716"
+    },
+    {
+      "record_id": "STR_058",
+      "electrothermal_source_sha256": "38af45ec57a704eac9478560678ef529994cffeba28992e25649e4dd24484d44",
+      "mechanical_source_sha256": "d1ba18cd93dd59ad3ca43f1324b8887f2fb6edaaff90650990a5a1ec9848eab3"
+    },
+    {
+      "record_id": "STR_059",
+      "electrothermal_source_sha256": "b13657155f27230075d50a0308b9572a4376de419fad1683fb9bf23304a268ae",
+      "mechanical_source_sha256": "78938a9114a81cd2921ebc04c129248993c3ffda9dbf5b1b7f4b5188833ec749"
+    },
+    {
+      "record_id": "STR_060",
+      "electrothermal_source_sha256": "8a3417d5753aca0904c3f8c179da09a8a2c8ff8d36b5874e7eb04a1ef3754979",
+      "mechanical_source_sha256": "f66fd13666b08f9794f0ee0960dbe2539916a16ebacff42ec0320e305f30d1e1"
+    },
+    {
+      "record_id": "STR_061",
+      "electrothermal_source_sha256": "dd38630166ecfe8fd751116a5569399768e8bce9412b0dbf9d2c76241d498f56",
+      "mechanical_source_sha256": "64951a1e56db1d04b3264e7f9fab8b9d8e7e630dbe7a24631a284fe6ddc0b6ee"
+    },
+    {
+      "record_id": "STR_062",
+      "electrothermal_source_sha256": "a1274985dccbac23148dc68a7ace903524431110bfea0b9577e52941707181e1",
+      "mechanical_source_sha256": "ba590b4517400260b8146d343d707dff2d4ba3438d1e1c699365454c13674206"
+    },
+    {
+      "record_id": "STR_063",
+      "electrothermal_source_sha256": "1381fbc47caa199210d4bb2eb8908c47c50106b9c938a0dc4772a3e49a925944",
+      "mechanical_source_sha256": "7d1d18d12b8c4990a0c33b1e2fbe53b38b4a84d090653b80487549536b3ca897"
+    },
+    {
+      "record_id": "STR_064",
+      "electrothermal_source_sha256": "b4d98601bda38ac556d04f7524f8324b4865107758a36ddc37b9045c16c10126",
+      "mechanical_source_sha256": "95974782f6e3d8d7f3c2f8b21904431b35fe5e9322e7407622ea444925d3ea34"
+    },
+    {
+      "record_id": "STR_065",
+      "electrothermal_source_sha256": "60e89a96a8fcfa31800e65a7a46f39bc2c5b5548bed6437159580ebe9ef17d75",
+      "mechanical_source_sha256": "b815652f6d6ea2d6cfba3fc7a8423bd66884f46d95f86ecddf9bd022137ad1bb"
+    },
+    {
+      "record_id": "STR_066",
+      "electrothermal_source_sha256": "1f1aa307815bb5d02f663ad60cebd210acaee1b5ebaa2068c25b526a749f6e56",
+      "mechanical_source_sha256": "78db4b70658826c11447d53eaa780657446fdca80ea7916b052e7f7480c972b0"
+    },
+    {
+      "record_id": "STR_067",
+      "electrothermal_source_sha256": "720dbf4d3c6e39515db2b97504afffcc6054bf92bd87d8ed54e58a0228ded4fc",
+      "mechanical_source_sha256": "7ec766d1bf2317cc4ab1bbae4527ac44d8e78077a63810a33bda58e81e81f92d"
+    },
+    {
+      "record_id": "STR_068",
+      "electrothermal_source_sha256": "f7eeae691c66156f5588d200d6d540c1e18a3ca743ae552ed3c200d41b5af866",
+      "mechanical_source_sha256": "ccd75dd12e4e97bf879fc3925901d4113923d55c4798d4dedf391cfd69196a23"
+    },
+    {
+      "record_id": "STR_069",
+      "electrothermal_source_sha256": "3241f762ea1464b5d466312ee6512453ee711580dcb7a5cdde446a70039743ff",
+      "mechanical_source_sha256": "3f81dbd7a74eaefd8788b52987d6d1dced138f9778eaa077e9a843354204f956"
+    },
+    {
+      "record_id": "STR_070",
+      "electrothermal_source_sha256": "7780d1a20b2e526fb215899079b4107c282869540f30f870641927b71d8c6bb8",
+      "mechanical_source_sha256": "e8fe67d9bfade8e7f30d5f3a883613d645a475164ae7c91c47ed73ab8532244b"
+    },
+    {
+      "record_id": "STR_071",
+      "electrothermal_source_sha256": "a1bf2e2b6073c1cadc63da2fb659823350340b0bd8d3f6942878bf14f41f0e68",
+      "mechanical_source_sha256": "2c66c4b2924c9ab1baa99c8c02e51bd718abfc9d97df0901e5b8a5119f245560"
+    },
+    {
+      "record_id": "STR_072",
+      "electrothermal_source_sha256": "200341c1f6afc54c5182511ae9760ba07799630018ca4d06d2cbc014b39dd06c",
+      "mechanical_source_sha256": "21badfe993f30c2e518e332e84bf6bf0d447eb9d21fb44a24c8012bcc84f1450"
+    },
+    {
+      "record_id": "STR_073",
+      "electrothermal_source_sha256": "50465a635fa84aa1ebf18d40194409570e2b772c033ab12e930543fcc144f82b",
+      "mechanical_source_sha256": "e2097e5b7e8665a7f6986b4d007c16bde40a81a5eae10702b403ddff362eb684"
+    },
+    {
+      "record_id": "STR_074",
+      "electrothermal_source_sha256": "c0667e780899931a2158da34a351544ab685e6fa4677dd7f94cdf4166c9e87f0",
+      "mechanical_source_sha256": "d62749527c9c32ef3ff4c85e074008dbb85ba944fa31296552281b6eb2d98b74"
+    },
+    {
+      "record_id": "STR_075",
+      "electrothermal_source_sha256": "f0bd11761bd8f0c288ac85590400669c91edf6bd547960226c5b453544604bdc",
+      "mechanical_source_sha256": "a52646287e9d124bc06bb878c21f7badb5e8efe82fcd4d6a776a388e3f577445"
+    },
+    {
+      "record_id": "STR_076",
+      "electrothermal_source_sha256": "900837c08123c4188242a8ad2bacc755c96dc855094b145e9afec30cd0e3869b",
+      "mechanical_source_sha256": "fd09383f7c1191db55f246133b60b61680bbbe3bd20b4c8270f0a36c03de026d"
+    },
+    {
+      "record_id": "STR_077",
+      "electrothermal_source_sha256": "05dcd03a8f850ddaf73694f41d3810d6cf7b63e7e8ca8a842af85bdef1a8dee0",
+      "mechanical_source_sha256": "ecf93dcdc9e7b273ebbad52fac18c8439bdafe771c96b951c2966d93222023ec"
+    },
+    {
+      "record_id": "STR_078",
+      "electrothermal_source_sha256": "f90bf96f0823439076b68242879280e7df1f24e9da6e0c897cd184f244dcf508",
+      "mechanical_source_sha256": "b74bfaab8ca3d31087a5d808cdb758d915982753987207b3e6baab3a666f91f1"
+    },
+    {
+      "record_id": "STR_079",
+      "electrothermal_source_sha256": "9ff40c4cff488d4b0060e2b9e7eeb9d6cce3bdb70b0639a99a8cc2472924af0d",
+      "mechanical_source_sha256": "7c34b2927f24b5734b9003f1a98462391d4db96cbf7e8a2328de80ad081d5986"
+    },
+    {
+      "record_id": "STR_080",
+      "electrothermal_source_sha256": "65020c51222616704e31de961858a41663083f9ecec22eb87a2fd7b012cbe8d8",
+      "mechanical_source_sha256": "692c57a0aea6f7a61d4534a200c4b95b680fba497dc48f9ef257b51492e2f729"
+    },
+    {
+      "record_id": "STR_081",
+      "electrothermal_source_sha256": "90046661d6d7bae0478fbcf866a52af184f3c7eb1762d294b553462d96a1b377",
+      "mechanical_source_sha256": "ef24f20735be7183db661360f422dbe2732bb54cc77a46aceb43a46565520525"
+    },
+    {
+      "record_id": "STR_082",
+      "electrothermal_source_sha256": "1d0db9aed54b90e52a4323dff126aaa6f1dbf1990eb5c495a0e3c64661b1db74",
+      "mechanical_source_sha256": "15506f5c2b06ec44cfb3c9fae74a17483f2df278570c9322a9437930107cad84"
+    },
+    {
+      "record_id": "STR_083",
+      "electrothermal_source_sha256": "f916d1688673c432cd13551b25aa7629af4ba3c2ccc70e85053d72800214dbe9",
+      "mechanical_source_sha256": "198ca9134430250fce92db66c90b94e3a50c5e82c6fc7727fe0ff952d00a0783"
+    },
+    {
+      "record_id": "STR_084",
+      "electrothermal_source_sha256": "7d9065c7661940441d0df4e01375eb71cf51e040305ecf1797abb16eb68cda09",
+      "mechanical_source_sha256": "20ff43553d54d2565227c251beccb4f39e89eaaeb54aa19cc133413f1ab2c5e9"
+    },
+    {
+      "record_id": "STR_085",
+      "electrothermal_source_sha256": "405c2b3dc921ed23a58eb2dcdf1ac3187891c588fa104104f4f695a0632a06b2",
+      "mechanical_source_sha256": "e585793ea4a5ed164e3bb29669c9e8c354128bc5b05348319a7118143cd75a04"
+    },
+    {
+      "record_id": "STR_086",
+      "electrothermal_source_sha256": "2a6fdafc7a8df7703354384f8a84ee5ad24458bf9c7686e842b20deb8b9108be",
+      "mechanical_source_sha256": "a5b9645a51483d3934697b0605992272554e0afa2309375543e45d68e86d6eb4"
+    },
+    {
+      "record_id": "STR_087",
+      "electrothermal_source_sha256": "cde2307e19edf4beca3c5f376656255b2f94831f5830d54d25e00b903178c83d",
+      "mechanical_source_sha256": "fac07d4c90ba233ebf0b84b1d71123e20a09736109561d8a66f6f06e462dc50a"
+    },
+    {
+      "record_id": "STR_088",
+      "electrothermal_source_sha256": "1189961b6ec975785c49be903a274a987bdb577f736f05bf32163318a39db52c",
+      "mechanical_source_sha256": "6ea782520161ecff1666842dfbc0e5e027ff3342ae3267d4343e5c93907560df"
+    },
+    {
+      "record_id": "STR_089",
+      "electrothermal_source_sha256": "a65bd9c1c73c91023a39198311bb2c47c633646bcfeac0dae4313d9314616187",
+      "mechanical_source_sha256": "fe18aef2b7b48249ff15d5d9f2a36dcb62171b562506efa26eddc97f08892ea2"
+    },
+    {
+      "record_id": "STR_090",
+      "electrothermal_source_sha256": "d64614aa4296e3f265caad31e1bff0470b5601a3b4ed28f1ee94101f658851fd",
+      "mechanical_source_sha256": "73c57763cec917d4cefb53e80e5ccf5c1e599c0153aca77218d8b4af87f0b052"
+    },
+    {
+      "record_id": "STR_091",
+      "electrothermal_source_sha256": "acebebe69f547cae92e6cf2c96b907100351000d606e416ef58ea900797a9ae0",
+      "mechanical_source_sha256": "1b30e0ea90bd4c8d45dcf3bc9cd13863966f17507e68b0f55e7d1244fe5c1e9d"
+    },
+    {
+      "record_id": "STR_092",
+      "electrothermal_source_sha256": "6847c4d740cd15e43759e2534b1d0fa560fd42055981a00619338163c70fec85",
+      "mechanical_source_sha256": "10df0b259b4cf2a0d3777fcaaa377c6d3ccccad4da3a66def42d783b55174c69"
+    },
+    {
+      "record_id": "STR_093",
+      "electrothermal_source_sha256": "6e3e5a3dc1d6b0b9909e49b3ebaec5e5dc80a2ce22a4a458aa3973f15b017cc7",
+      "mechanical_source_sha256": "13e2999008cb050f1cbb8e3df5f5df9a117afd155a963984214a8543be4541bf"
+    },
+    {
+      "record_id": "STR_094",
+      "electrothermal_source_sha256": "fe5b15ea00d263d1ac37c93fefbfbea38480f2f9c4b7f2e65d42dc6a27048f84",
+      "mechanical_source_sha256": "d59d069cdb2cdd4fc9c20a4d10fb20abb343790322b48e5d5b3a09193ce5e024"
+    },
+    {
+      "record_id": "STR_095",
+      "electrothermal_source_sha256": "31b68080092f848d554cb3ef17e1b1c43eabc4ffb829ea176fcf68b55b59430a",
+      "mechanical_source_sha256": "bb4dcb36f47b248e969abdaec85e246ce9f7ec27a8c918b59deb19604d0c42d5"
+    },
+    {
+      "record_id": "STR_096",
+      "electrothermal_source_sha256": "104c373c324b61628e080cf4b0cc5df3427016834e0a534f32d2cc5dc34ab89e",
+      "mechanical_source_sha256": "e144f42e1b4565e80c1523a1065fa182494d46df48c953ffd7e5c8c4a9e9c8f4"
+    },
+    {
+      "record_id": "STR_097",
+      "electrothermal_source_sha256": "8b156e8fcc2b9720b0bab35b1c8d9d09272986d7c341931af5b853f37cc57df0",
+      "mechanical_source_sha256": "9be0d613f3f72df9f5c6bfd33736ca302db23285b47f106985813745b88aa027"
+    },
+    {
+      "record_id": "STR_098",
+      "electrothermal_source_sha256": "2f921af17b2354d12df2d52960e5f5ce4600df887d67dc470eb89bca3ef0d625",
+      "mechanical_source_sha256": "d238222733693cb7e4a1e8af8e2d2817c01d24c708e25f751954ce9b030926dc"
+    },
+    {
+      "record_id": "STR_099",
+      "electrothermal_source_sha256": "919fd102ca5c26d612f059fb06d139eca60a127d5420fc43dcb28fd889465877",
+      "mechanical_source_sha256": "8b6f500f4f57af9f02a4d798fa39ab408c573b8dad7c3c5ac3d3435a4bb8165c"
+    },
+    {
+      "record_id": "STR_100",
+      "electrothermal_source_sha256": "d859424c6034dd5efb60b2aff6fd6205112710d4ebcfae911f2adef1db1112df",
+      "mechanical_source_sha256": "320b6ec828fe79d5f732977875f96713fac2c0c4cc8ce1c4bdeca24d5abaa024"
+    },
+    {
+      "record_id": "SYS_001",
+      "electrothermal_source_sha256": "0cd3b0c1d05650635f24d502a5ea83fac89aa82285cb838a41a0ddad6655fd98",
+      "mechanical_source_sha256": "61526ad5d6a272a6dc175bf9d6799ae369c1e2724af47af4bf70dcd302813dce"
+    },
+    {
+      "record_id": "SYS_002",
+      "electrothermal_source_sha256": "8afaa5229578d5faa6dfdb0746c6bea2924cc53643c19755e335b399990c98d8",
+      "mechanical_source_sha256": "197ddbcc741a7c181a29e08bd6b9727ec29f7cbf42d51186094b4e6668d5e355"
+    },
+    {
+      "record_id": "SYS_003",
+      "electrothermal_source_sha256": "eb07ba7e63641e7301e480a4de1e828081f4125f99c2e69c53468e3a6c1ce96b",
+      "mechanical_source_sha256": "8c2c69257ff3e1612cc30e738f5fc99bed27f987b68569d9f1e8d4024a2548ca"
+    },
+    {
+      "record_id": "SYS_004",
+      "electrothermal_source_sha256": "2f3698bac4b67c536449e424e9739770120aa10bacd1fe33adc8434cbcf5e9ac",
+      "mechanical_source_sha256": "8851f412a1cb8353db76875372d689eb7cc6d5a2b73b65bc840e5dd2bfdd36f6"
+    },
+    {
+      "record_id": "SYS_005",
+      "electrothermal_source_sha256": "e2b8b88ac302fa048f0aa5331de332ab7dae58e603082afe41ceea01cf93557c",
+      "mechanical_source_sha256": "c230c3759257d14863d9d29524e03d0a6d0f1444ccd73b57d0075d4452f14099"
+    },
+    {
+      "record_id": "SYS_006",
+      "electrothermal_source_sha256": "e89eaaae2155236ba1a3c0c39d5c1a1ece6e4dd6dbf79158d7e14c58784a8464",
+      "mechanical_source_sha256": "052f5d8849c471f59cab177e949bd1da09d5e1047db05b5bfb204e413f68a925"
+    },
+    {
+      "record_id": "SYS_007",
+      "electrothermal_source_sha256": "1a630d71105d8981a9141ff02b1b8577bddca4bb75cc0c3c08462c15d7a1110b",
+      "mechanical_source_sha256": "b2142be51f3f714f174acc6a97a39a528d257e18b19acea34eb10e30eec87666"
+    },
+    {
+      "record_id": "SYS_008",
+      "electrothermal_source_sha256": "9fb4897c5bf87879020bcefad8209bc37cc3b21b5077a6e95114814d7076d636",
+      "mechanical_source_sha256": "5b917f5392ba204dc5900a7a1540c5006b49f353985b33ab1536c0a53b2b8f4d"
+    },
+    {
+      "record_id": "SYS_009",
+      "electrothermal_source_sha256": "0c330aa23f95b9761776b8b32337061c3d4fad4fd40c7e6e31ceb3492b8d03e9",
+      "mechanical_source_sha256": "fe28cb0eb565edc4819498f679b6f87456e140a9b69281e5f376754454e6cfdd"
+    },
+    {
+      "record_id": "SYS_010",
+      "electrothermal_source_sha256": "565702d2d98c29ed6e3c8fe520ca27f0a06b1a727bd263ff3da8a2ecbdc0c581",
+      "mechanical_source_sha256": "68bc0883a54681df254049b0638b9ea31d4b6644a46b406ffb4d7c29e4c9c7eb"
+    },
+    {
+      "record_id": "SYS_011",
+      "electrothermal_source_sha256": "f72d69d4ab4a5dedff86cd7ae90ed30f3b10753dc3355de87f2790ab17cd1a19",
+      "mechanical_source_sha256": "bda14fd7fcdccfa4066f4e99c34e2a3895e44b03fac0d1b42f766d194a8711de"
+    },
+    {
+      "record_id": "SYS_012",
+      "electrothermal_source_sha256": "043abd28975ab393225fcc8b4b91326588305892d9d1e97d60895838045c4766",
+      "mechanical_source_sha256": "c87e982d2109250f85097a6aa2201ba0f0f0fbcc635cf41186264b9676efc2fb"
+    },
+    {
+      "record_id": "SYS_013",
+      "electrothermal_source_sha256": "783f1c1a51905518e222a528168ac8c3699e9553a87e442cf149566aea141a39",
+      "mechanical_source_sha256": "02290722e7b19063b0b33f14e6e46d4f67caa5d0d3c12f2ad20ccbb4d2d98bce"
+    },
+    {
+      "record_id": "SYS_014",
+      "electrothermal_source_sha256": "aa01fe57441a619f20071dc5c4896d4c1a053cec4abb1686ea6f810217f1416e",
+      "mechanical_source_sha256": "419c7334d8ab8925571021f5ae73c6e15d9c63ba56a5ccbf13d3e662e5994ed2"
+    },
+    {
+      "record_id": "SYS_015",
+      "electrothermal_source_sha256": "5231fdb38dc8f381322bd603beb17e938462451b0c8da027b9d077c80899d2f9",
+      "mechanical_source_sha256": "ec91e95faf6daac7e96fcb5f40b3fc9538d1f97e76cf0ef07f7d312cd20a531a"
+    },
+    {
+      "record_id": "SYS_016",
+      "electrothermal_source_sha256": "84a8fb42c9d18d919f13d3eb469c8277e1638ee08ea2cc99c4ce74363f8d37e6",
+      "mechanical_source_sha256": "6b9881b7a9e31c836585195534146fd897ee8113679087e1d2043f470431da10"
+    },
+    {
+      "record_id": "SYS_017",
+      "electrothermal_source_sha256": "ff42e163d07845bc7401e20ff76493b9e4c2763e6729b4be5449fea0c9970e36",
+      "mechanical_source_sha256": "5fdd6a4149a4f5d7b5627c464cd020a363a3d1efb9e9bb10e1ec78397e945fc6"
+    },
+    {
+      "record_id": "SYS_018",
+      "electrothermal_source_sha256": "ea21079faa416de432edb70203b3e480982b708329c89feffbe77bb133bdaa34",
+      "mechanical_source_sha256": "31ca09cbe9c599d8b16ff6f3165fa0b253035a1cb21cbc69c28ba5735e06538f"
+    },
+    {
+      "record_id": "SYS_019",
+      "electrothermal_source_sha256": "617e54e1ec7b54f58f1fe936e342d631db6d195595064077cdc663490bd1e722",
+      "mechanical_source_sha256": "0d636cc3e5bb8d5eb57e9a103f42f4564f73a0d4df8911c08aab29c2d48b93c1"
+    },
+    {
+      "record_id": "SYS_020",
+      "electrothermal_source_sha256": "0867694430fee6572b33548f63ab53b3eb7443a35d95a58e53188c6f7cbe395a",
+      "mechanical_source_sha256": "1148a7839cb0eef3fddbf729bc087d5fb33a8473f285097dae3e24975d7fd6a5"
+    },
+    {
+      "record_id": "SYS_021",
+      "electrothermal_source_sha256": "eaccf07f6ca0ed314f03dae3cacbf5e653d174f39b40a6e87d871786467872ae",
+      "mechanical_source_sha256": "77c5a020aa7d3f89926a4ec9c2f00d4419c8ff054c219713b0d2b3c94cc9a3ad"
+    },
+    {
+      "record_id": "SYS_022",
+      "electrothermal_source_sha256": "01a8a48617e36f94a93e58203c5754f34075f763f07dee55618a48474503cbfb",
+      "mechanical_source_sha256": "2360f2a3182f68cdc675db9bc377f459206b02f5ce3bcefcbfcbc165a5583fea"
+    },
+    {
+      "record_id": "SYS_023",
+      "electrothermal_source_sha256": "c13f144ee0fedd0e83345f54f7d938c58368e1ea045f660ea4ffab8995054b55",
+      "mechanical_source_sha256": "e319b99cd643fd0ea215c1af348c4c61318c24249fea29c1ce7fbf3b7efd631c"
+    },
+    {
+      "record_id": "SYS_024",
+      "electrothermal_source_sha256": "948f75bf39080edb7e73553ea8f412d45b7d212763b9c905dd92c08dbf45bc63",
+      "mechanical_source_sha256": "7c5dd7bb866e456c2848b1e177b06de8835975e6fecf43ed1f24f7d8ad93bba6"
+    },
+    {
+      "record_id": "SYS_025",
+      "electrothermal_source_sha256": "c99d83ae4d0cf4ba89d20d773b3e0090a2a216c54bb077f37196f6464bd9aebb",
+      "mechanical_source_sha256": "e665f6984ce291fd20c70150af64dbea9fe5918b661aff3a0e6c29398d4d5cdc"
+    },
+    {
+      "record_id": "SYS_026",
+      "electrothermal_source_sha256": "1f13eff6f175a5d3ef803da497d9817762466fbe7af743e0a95df226ebac901f",
+      "mechanical_source_sha256": "d4eb97bc22efee3e0a6fef66a8233dbddf317cf9635a56c5a89ebdb27d3a49f1"
+    },
+    {
+      "record_id": "SYS_027",
+      "electrothermal_source_sha256": "3fcac65cca8059ae45ffdb99f5d507a15e6bdef46ed17fe1f071d6447eb3dddb",
+      "mechanical_source_sha256": "997a7d483febb302cb461d29e119c69a5d7a4ddb1345aea6a7fe81995a37d303"
+    },
+    {
+      "record_id": "SYS_028",
+      "electrothermal_source_sha256": "28693be90090ca33cb6fab0425140ea304bc7dede9ab3f2b2bc95cbf81915ea8",
+      "mechanical_source_sha256": "1befe2be3265d8390877ec422552f80afc5ff41b76039dab9df70a366f38d3ff"
+    },
+    {
+      "record_id": "SYS_029",
+      "electrothermal_source_sha256": "413cab68d5806a60adc46f15a603fa02f763449b41bc1b1d9835e60a631398f8",
+      "mechanical_source_sha256": "81424e09cd4f4f0282340eea55cbd3d9fa9e2e5790fcb4a8068aad0b3ce240f3"
+    },
+    {
+      "record_id": "SYS_030",
+      "electrothermal_source_sha256": "d634c33e86402b97612c075efe184db67ec87360dad1e4c422338e0acb56aac6",
+      "mechanical_source_sha256": "6f2cc8bba7fc11256bed2f4536ed7ce59dc1eb3423072a1a1bde085d79c1732e"
+    },
+    {
+      "record_id": "SYS_031",
+      "electrothermal_source_sha256": "4cdafa20e9a52d1e5bdaa433f1edb8e8e5b7234948e1138b1ecb425715e2b678",
+      "mechanical_source_sha256": "0fc417816a1997575852e23b46e0dc8d5e9f3d41a3835057a411439d1ba50a18"
+    },
+    {
+      "record_id": "SYS_032",
+      "electrothermal_source_sha256": "33052c44fba44dc21f3d6c04333fdf50844b53ae96d1f50a608465449621018e",
+      "mechanical_source_sha256": "73e2941237f297d97610fbc9d8ba16a9bb03e6eb908d6186815d3e7958e69983"
+    },
+    {
+      "record_id": "SYS_033",
+      "electrothermal_source_sha256": "e52c88ba999487c4483ae0905f9d2592c8da19e6364407f4d5f4707da120931c",
+      "mechanical_source_sha256": "33b993fa1c978b12040e182e312dd4930ae47fe60cde17fd8aae78f3f17581c5"
+    },
+    {
+      "record_id": "SYS_034",
+      "electrothermal_source_sha256": "544f2ef05b03c4ceebf0dfcc71a6c2f34f8f2bf1cfd09fc5f965718d130ba5d7",
+      "mechanical_source_sha256": "c67a9d5597f3535e3e0bae8b4b9fecafb9ff69063b7cd3312dd3ce26840fd629"
+    },
+    {
+      "record_id": "SYS_035",
+      "electrothermal_source_sha256": "a33a06f100c40ed679d9661b4c31e56e1e5d582d804ceed2abfc4f969db8b9eb",
+      "mechanical_source_sha256": "ad0af9156555d18c8b105c506a8a8276d5a7dad5d0a0dfb48251ad4daa08e55a"
+    },
+    {
+      "record_id": "SYS_036",
+      "electrothermal_source_sha256": "4f19c89908390591b43e6dc6473663168c699f715e5b38cfa09f09166e621dce",
+      "mechanical_source_sha256": "c322f419655ac614c5ede1ffb471923fd87e6f8e042eead8626a9fe3c3cda9b5"
+    },
+    {
+      "record_id": "SYS_037",
+      "electrothermal_source_sha256": "abead7cce44bada374b8231048fce6c4947f3a423a7f3c8dfcb14ee715f03674",
+      "mechanical_source_sha256": "64a09ae8b3ff35c0a11eed22d36f39bb3c9dbccfb690b0cfc088f5b63ca3fa09"
+    },
+    {
+      "record_id": "SYS_038",
+      "electrothermal_source_sha256": "e75ac50aefc843dcfc9477f0726954f75856b290d5888718b6d40b68d6470ee4",
+      "mechanical_source_sha256": "0a4cdffc9cd69163c4d84ea2def6cc9cded9083eb19983b316149cf688d00f5f"
+    },
+    {
+      "record_id": "SYS_039",
+      "electrothermal_source_sha256": "8355b937520a7e1958169010810c5f7741f584675ec429c457fee5a274d3e9ee",
+      "mechanical_source_sha256": "b225f9573eef9d9a104635081fb9398127db3b225c93d2d395ae6db90325ac74"
+    },
+    {
+      "record_id": "SYS_040",
+      "electrothermal_source_sha256": "282f581a987005e920e0c9317c8cb160bb72b3f558733837d9d0da3c474ff28a",
+      "mechanical_source_sha256": "c171eb312a37cbc24c0ee142c651fa053e67a1699640c87343c05cf4c043ecc9"
+    },
+    {
+      "record_id": "SYS_041",
+      "electrothermal_source_sha256": "0fa9b813212afb2b4f1d623403ab8f02b6005a86cffce360ea4ffeb6f714d56a",
+      "mechanical_source_sha256": "99caf2d5c228fa3bc3588357622bb037d85a9f51f5d5f5f06c0a58713b5dd422"
+    },
+    {
+      "record_id": "SYS_042",
+      "electrothermal_source_sha256": "068ea575ffa2a7668199a92e6b3042a096a4b13775d8c16edc4468f36eefa570",
+      "mechanical_source_sha256": "8ed239c642a83916b5556035cea82dd40e874fe04948ddbf76123c7b83a67cd0"
+    },
+    {
+      "record_id": "SYS_043",
+      "electrothermal_source_sha256": "5abc5eede936d42e5c0ce6d728a9903e86ef3a729ab41bbd3b52b96a27d95468",
+      "mechanical_source_sha256": "06c19d68d789e1af5275eb90a6fcad1a284e428691eb826c07345fdaf336d693"
+    },
+    {
+      "record_id": "SYS_044",
+      "electrothermal_source_sha256": "ae51db26c56f06509f85ac91775df7d79317529792d22218b979792826fc4c4e",
+      "mechanical_source_sha256": "73c68237a6f8e2a746e5a05be122c7c2e0e5c33fc8762a55a051b3b61b41d3b7"
+    },
+    {
+      "record_id": "SYS_045",
+      "electrothermal_source_sha256": "6c7a23d15e9fe325431f3059641702e3d0f01187a5095689c267084c6e9894a7",
+      "mechanical_source_sha256": "ebd9b8990e4d95565964debf0091b947ad1e7779c64e1cf5160322a3a986a68a"
+    },
+    {
+      "record_id": "SYS_046",
+      "electrothermal_source_sha256": "dc98f89cd7f62e041b79084d3e8b65d1f6fe8ade1019abb28742a20babbe065e",
+      "mechanical_source_sha256": "95dedb259d57ba52554dc7d2b3218c2a96abc231e8e063bd7b694d1186298949"
+    },
+    {
+      "record_id": "SYS_047",
+      "electrothermal_source_sha256": "86abc058413ad1174cfca6e129a68ebb4fda57e9ff0edc9de331a8a3446878a7",
+      "mechanical_source_sha256": "10e1293a6145e08de7a21f156c76e65f963e98f8bfcccf8e2dd4245ac7b19d1b"
+    },
+    {
+      "record_id": "SYS_048",
+      "electrothermal_source_sha256": "aad3a089e48ba677f0feaaeb0512637d46c5720ac0ea44596a937591fc32ffeb",
+      "mechanical_source_sha256": "f09281faf9a05a526f467655a8a7e2c33972fc07731608cbb6f683e9ce1bad54"
+    },
+    {
+      "record_id": "SYS_049",
+      "electrothermal_source_sha256": "9c16d62b2d44d7d587c51002290ccb92e56cb1267f9ba3d3ce3cf3ef405650df",
+      "mechanical_source_sha256": "9f17a9d335734fefd4a75211ed734477bf76cf2becf10579b88ee308aef60265"
+    },
+    {
+      "record_id": "SYS_050",
+      "electrothermal_source_sha256": "abede0c9807d2b261fb8ee37bde14becdcf8e17310f82005c8a587b03ccf3cc2",
+      "mechanical_source_sha256": "2f522a15662c25e2ba3e31fcc1563a35cdd68167974a3665413212424676be73"
+    },
+    {
+      "record_id": "SYS_051",
+      "electrothermal_source_sha256": "788f0aad2c981cdfb6cd7492c80bd0eb5ff52bae58489266bcca1e1575cef0c8",
+      "mechanical_source_sha256": "1e8bb420975e5f0297d1bffeadc7115a709392187799dd1e5007700a442a82e4"
+    },
+    {
+      "record_id": "SYS_052",
+      "electrothermal_source_sha256": "e906a949f7039ae9da751c8c4a2232cb103eba132cf7e7cfb6be7ca98a494a4e",
+      "mechanical_source_sha256": "9763997e53409566a558335aaf3a57b9b6ba7f664df4100664a41eb98cb5284e"
+    },
+    {
+      "record_id": "SYS_053",
+      "electrothermal_source_sha256": "634f25016f973daed41b23aed88a80a69f713d366847ce9e6fd36912ca644a2f",
+      "mechanical_source_sha256": "871b62e8b3dd64adbff124b1890a2061b386255acf36b23b8aef296dc6730553"
+    },
+    {
+      "record_id": "SYS_054",
+      "electrothermal_source_sha256": "5af23be70e2da49ef1311e96dba153b3351d757461e9b4375440edd905343404",
+      "mechanical_source_sha256": "92ba23f39627575681865a1e909cb01a88f3b7aec424110b4dbb96f87fb5340f"
+    },
+    {
+      "record_id": "SYS_055",
+      "electrothermal_source_sha256": "44d2cce492d334f68b40ee6bde8fdc53bc87412e2475a0bce06fe95579b25fe3",
+      "mechanical_source_sha256": "4a79009f4c0340b6461c66b12ede911403535ae2faaddc6788282a82a9cc1ecd"
+    },
+    {
+      "record_id": "SYS_056",
+      "electrothermal_source_sha256": "680c0486e2618468ceb97b357ecc7ac56c441f73c12c87bcf42a6f4da508722a",
+      "mechanical_source_sha256": "aaaa30e24f77b0439cd0270f8e382b54eb4594594ac720b2c453c26427c30812"
+    },
+    {
+      "record_id": "SYS_057",
+      "electrothermal_source_sha256": "3d96acbde0967ecd00d820b890dc8c9316b1feb8ed0998688ddc0c38f9585ebf",
+      "mechanical_source_sha256": "f3bbc0fcec5e0454c028301fb3340cd956e192f889d2a8a4d097f000bae9b07a"
+    },
+    {
+      "record_id": "SYS_058",
+      "electrothermal_source_sha256": "ed13dbcfbd1cf831a40c1e849886231a9a15076de1a9d674ac8d30b011479bd4",
+      "mechanical_source_sha256": "bd35b6cbfbdf5d7aa26213ff9de734ba11ad56b6e01019a325fbee49a8a96f83"
+    },
+    {
+      "record_id": "SYS_059",
+      "electrothermal_source_sha256": "615fa46202a972ff81b3f9d3b34c12ae23388a1a318baf675a7af54cb43811f8",
+      "mechanical_source_sha256": "8fcecec9364a3ac43849dfdc107ed38ca5483265718038610c3a597bf5ebfd47"
+    },
+    {
+      "record_id": "SYS_060",
+      "electrothermal_source_sha256": "3aa8d8bdc131192b359327fba8660539fe7c317532b049d56346bd7487bc21bd",
+      "mechanical_source_sha256": "3f17f581ffa7b2a9454142536849c26b11d248d60c3fdc0b52c4729f21e8cb7d"
+    },
+    {
+      "record_id": "SYS_061",
+      "electrothermal_source_sha256": "3bec66894d79943773677fbbe444de8d8ac984844d725cf141a159b55a598e96",
+      "mechanical_source_sha256": "83c1479702d2dc326d86b5da0ed5e9f0c082bb41eae3c23f0c641d67a34bd40a"
+    },
+    {
+      "record_id": "SYS_062",
+      "electrothermal_source_sha256": "2995dd473474f465e5684ab38fd2d7ff747472250b3b849ffc6a45802bedeeb8",
+      "mechanical_source_sha256": "3cdc8d58c6affdca1590faec02bc95628b1f674305327c51d27c6d88987cb8f5"
+    },
+    {
+      "record_id": "SYS_063",
+      "electrothermal_source_sha256": "74e55c09ba7bc639b2a75d6b2bf66601276362e19ef068848635fc5e1d07e860",
+      "mechanical_source_sha256": "d54fe32a0be0fac0e7c287476061e19c06cc423c086b1cfd313bae202c43320d"
+    },
+    {
+      "record_id": "SYS_064",
+      "electrothermal_source_sha256": "2c183548df7ca6a2db6593343e966626d476ad0cb2ce54ec5ed42254813e1a68",
+      "mechanical_source_sha256": "0516577d0cfac1a0c9f932433f315180850dbee6fef25d23b4de8ce0911b7c0b"
+    },
+    {
+      "record_id": "SYS_065",
+      "electrothermal_source_sha256": "45da72bbf827ab66c5bb790cc7d52d6c4934532b02ff17641d4763ed2c5078d0",
+      "mechanical_source_sha256": "30f6f4c165a4a740c3efc33f371d05a63985814e60615f500bb35feaa7fcf4e7"
+    },
+    {
+      "record_id": "SYS_066",
+      "electrothermal_source_sha256": "9a9fea292f7ab97d4da639d515b687300de6402e3d340db135030a08e24875ed",
+      "mechanical_source_sha256": "b03a939e37abd8df6e6559db4e2b4f84040b42b59679e4656a58a1a86cc9d792"
+    },
+    {
+      "record_id": "SYS_067",
+      "electrothermal_source_sha256": "b853586522c1aa1de0f5947296b37367d6ab600eeafac13188f611573ec2da04",
+      "mechanical_source_sha256": "91e7a1c2d11d9f631af75320b9ae7d1b7dc9500fc6f23f8bc8f376fa562e32aa"
+    },
+    {
+      "record_id": "SYS_068",
+      "electrothermal_source_sha256": "c2b8c057e7bb58c5bc4e94012f20043bce4ab144d6547ce456a268e20d00af50",
+      "mechanical_source_sha256": "79f3ce58e1f342c9ca7dc7aac1480c7a42f693d1254792305d40a690148107fa"
+    },
+    {
+      "record_id": "SYS_069",
+      "electrothermal_source_sha256": "738982ca42e3439ef3a8b7268cd44502ac4ee74270d54bd6454ec9a6d7c0155e",
+      "mechanical_source_sha256": "761a0a2b17eff7ccf2dc22ad1acd63c6b7f831f241862b6f9000444c2dc39952"
+    },
+    {
+      "record_id": "SYS_070",
+      "electrothermal_source_sha256": "a5133a5c44f244396078c4f20c59c117a4ecec82d9e23ecf438330aac990164c",
+      "mechanical_source_sha256": "252f879cfa6cf4d7b06c265a578f40f590c5a3a8427cfe52d406b9159b5a13e3"
+    },
+    {
+      "record_id": "SYS_071",
+      "electrothermal_source_sha256": "15c9eb712dec36ea55d0387430dfd243c78800ed6fd04dd04c8fd66c56b7ae9c",
+      "mechanical_source_sha256": "240ebfc57d12ce12cb735a5caa5a028db146d5edbb5e45bc8d2bca01a9d4a7d6"
+    },
+    {
+      "record_id": "SYS_072",
+      "electrothermal_source_sha256": "a15ccf2be2696d1aa00cbd83a444e6f4b33f6a1948fbd7fbc52051fe2d997007",
+      "mechanical_source_sha256": "28ae1845139ca4491fd6b66afe33479b640df9499fc1fd1267ce56d5157a8f94"
+    },
+    {
+      "record_id": "SYS_073",
+      "electrothermal_source_sha256": "a15502486286703e901c7f952c7c04503034126486598d12ddc7d3683bfc3532",
+      "mechanical_source_sha256": "e12a96143ccaa7e5db78ec7ef3f75395fb873d9715bbc14417bf3f72e338dabd"
+    },
+    {
+      "record_id": "SYS_074",
+      "electrothermal_source_sha256": "5595bad3b47b5140119348d82b730f9e06ff160f533a1511610917388eec1511",
+      "mechanical_source_sha256": "33ff303892af0abcb37b24e6fd4d4c49edcd90217c874436d5807a25660204c8"
+    },
+    {
+      "record_id": "SYS_075",
+      "electrothermal_source_sha256": "f2bf643af70f84f82b54c9bf26485d400c9dee34a7998bc37c499e750a4bb70a",
+      "mechanical_source_sha256": "fdc8a55c854d55b18b07b5ee64497c2e558995acf385ffbc020f48863034d4bc"
+    },
+    {
+      "record_id": "SYS_076",
+      "electrothermal_source_sha256": "c0b88acec6f0de0db6e9ab1a227b3bc86ceb3f0c601c833296f291ca8a29535e",
+      "mechanical_source_sha256": "6a5a43c87512ba29b0da5dc55615f9db18502830b8ac8a2ad85c1b73485b27f2"
+    },
+    {
+      "record_id": "SYS_077",
+      "electrothermal_source_sha256": "6ff6706898fa2c1f83e800479b665fcb3abb8a146bd6b1f8db3f8369a839aaee",
+      "mechanical_source_sha256": "e205e5e8f3a41782531bdcdb1f9fa900f619e5494a35af7324d22799eddaa1b4"
+    },
+    {
+      "record_id": "SYS_078",
+      "electrothermal_source_sha256": "861cf0eb9c6d9507e27d40c273da35fd12edfc0139a6b83aec3ee6459737fa48",
+      "mechanical_source_sha256": "13e9717a88383ea8d9768ed1cb8dc889250969a157f4a5e9f83ce90208b15c53"
+    },
+    {
+      "record_id": "SYS_079",
+      "electrothermal_source_sha256": "9da708d4f2087243842596d750718d8053d5f590a1f7eca2b8ded7a9f29ed7eb",
+      "mechanical_source_sha256": "6eae6eef090c12019723c12ee597760aedb65431781abfacef16fb4823642c82"
+    },
+    {
+      "record_id": "SYS_080",
+      "electrothermal_source_sha256": "64308ef3a4ed1278a50db19c486ffcdcba736afaad6b544449675c3b33d30af0",
+      "mechanical_source_sha256": "5254fd5169fe17af0cc8711b92c7db9e9c039b6398544d93b82582403a62f625"
+    },
+    {
+      "record_id": "SYS_081",
+      "electrothermal_source_sha256": "e8ad2b3eb15824259c5c350fe44b24d518630654cbc6efc24fd4f7e45b6fc023",
+      "mechanical_source_sha256": "1e689b4360f302c5b334cf69e5ac6ffd2a0644e2f362d0b75be7d32961335eec"
+    },
+    {
+      "record_id": "SYS_082",
+      "electrothermal_source_sha256": "6586d4b0728f40a7d49458c03b807ede71e03369a3e19ed925ee7d3c4f4b5fc6",
+      "mechanical_source_sha256": "8366064bcf8a0c7efbe9ca8f4b1beded7789361a74fe12d26e648d8b342c95f1"
+    },
+    {
+      "record_id": "SYS_083",
+      "electrothermal_source_sha256": "297310ee7ea1cbd6fe91c6ded425e516503b39c04a7329f756b8eb3082d18571",
+      "mechanical_source_sha256": "8524ec90940f9d9d42a3efc053cc368680762d73bba90be29def80f68d5973f9"
+    },
+    {
+      "record_id": "SYS_084",
+      "electrothermal_source_sha256": "72834ddeffd65651acc9b67d3853537765f5abc7cbd8b64d7ecd0dd952e94814",
+      "mechanical_source_sha256": "ac35a7dcb1bbe5f6796bc1901677d902e92f38986e5d2996781e2f50a754cc12"
+    },
+    {
+      "record_id": "SYS_085",
+      "electrothermal_source_sha256": "81f40c966381c2cca26a2fe7400334011dd73fa8438fc3dcb46e0b6e5ad55f52",
+      "mechanical_source_sha256": "e98daca07d5d69ad0cca7013bf9cb8491e039dbb8c04de08967b0d697bc00f45"
+    },
+    {
+      "record_id": "SYS_086",
+      "electrothermal_source_sha256": "0fac03048e07ee0c4299df7e96f080198cc0a67d64d5b931a456159218ccaaea",
+      "mechanical_source_sha256": "c18411338242624d127522693a9395e362efe26e4f840a2e6f73502b1d698ac9"
+    },
+    {
+      "record_id": "SYS_087",
+      "electrothermal_source_sha256": "37405570d685bc90006ed3e0ed96e522b3b6580138f0f91b0682306338ba146e",
+      "mechanical_source_sha256": "e051bf96c5b0e32c58a29154252b1ace0ac92c6fc726a6e06f81ca174eb7a3c2"
+    },
+    {
+      "record_id": "SYS_088",
+      "electrothermal_source_sha256": "7b2276fdbb0ef9500fa4f15be7fbc6efbe0b1b34ef9d668ce50df8146f43b3aa",
+      "mechanical_source_sha256": "3d0fab4600c409b24428f7fb91b638627aeaebbf0d514191cdf614cac346c88e"
+    },
+    {
+      "record_id": "SYS_089",
+      "electrothermal_source_sha256": "b55ee611f1791b8be5202eeef6435b70a45232fd3a483f5c876c49efcdf9083f",
+      "mechanical_source_sha256": "e13ee2b5e78964fd80cea8c86df1a057cdd5dee0f5de9a6355e5708a5157d7f2"
+    },
+    {
+      "record_id": "SYS_090",
+      "electrothermal_source_sha256": "30783ac09b0e8f21a8d6ca560c21996cfce84e46eb147ec4c77a1bb9d503fd2b",
+      "mechanical_source_sha256": "9926640acf90bf98ad304c5d0474dda5936cef42d0fabf8b26ed6a3b5f5c0ad4"
+    },
+    {
+      "record_id": "SYS_091",
+      "electrothermal_source_sha256": "fdf9f2513453fa0704ae51bc8645f32f0a0dbcbc990eab9ed35b559d4549d09f",
+      "mechanical_source_sha256": "a4402f6531a6b63760d3d77c257adb4aeb69772905181e844754d81189befad6"
+    },
+    {
+      "record_id": "SYS_092",
+      "electrothermal_source_sha256": "8754849a994fdbb6eb2e2d086d54f62317197b4d5a4de210b1f58b752cc9748f",
+      "mechanical_source_sha256": "797176af87bd68b76a9ef74d184a894134cb070b42bb3341fd79c2d206552ad9"
+    },
+    {
+      "record_id": "SYS_093",
+      "electrothermal_source_sha256": "d3d580797bba070e92136944c92b8c5c7396e73d942ec7ca8d14424ee34e8d8d",
+      "mechanical_source_sha256": "42b90d9ebe3aea1b88aef4164182b96166527031c78d26a3e87a1a40ccc61c87"
+    },
+    {
+      "record_id": "SYS_094",
+      "electrothermal_source_sha256": "223a3c73dd7d6a875a202971ed62142c09b8d4a8939e0c23909c8d62c0e7d18f",
+      "mechanical_source_sha256": "13dd08f550dec3539648216477379f89590076ba00d361034dc4d953aca69fde"
+    },
+    {
+      "record_id": "SYS_095",
+      "electrothermal_source_sha256": "0fa31ad0a706568faed8fee93ae4cd0e89f2bc40cd611a180bd9c75d3c8f5fb4",
+      "mechanical_source_sha256": "91c020db24b76318001787bd51088f092157e5ad2b2fb6839dcdba75feab63bf"
+    },
+    {
+      "record_id": "SYS_096",
+      "electrothermal_source_sha256": "095814240ca4a38b929f10234385825787e53e3bb2febb176b852b3d9f86b658",
+      "mechanical_source_sha256": "9402917d727faa2a7e609244de6fea903e9d0fefa9b5fd2871c224db77181d5e"
+    },
+    {
+      "record_id": "SYS_097",
+      "electrothermal_source_sha256": "1f8e6e44ba61a021b47b80cd9340ee9eafd40a8a10c11f405f9967b5f2fffa1e",
+      "mechanical_source_sha256": "c4a6998daf91bfef7b556801194c004b2641dd07a8232010800d5d8a5622255b"
+    },
+    {
+      "record_id": "SYS_098",
+      "electrothermal_source_sha256": "b92214b10e0a7096e583cd85a970cce5affdfec558d911de816990f07350eb88",
+      "mechanical_source_sha256": "0e6fb18a2ebb78b2b94ae2107bbc205ffbbc038b52796cd8d9acc436702dee34"
+    },
+    {
+      "record_id": "SYS_099",
+      "electrothermal_source_sha256": "a00e088bb3af405a4b452da0cf0f24d14ffaefccb744338bd4afb3a49b2c0de3",
+      "mechanical_source_sha256": "98383b3572d927b66c54406abb2f1fd05dbc10e8c42422a4031caa8dc4008e1a"
+    },
+    {
+      "record_id": "SYS_100",
+      "electrothermal_source_sha256": "44515585b89c7508112524da7a1670a6a7f87ea1e9ef0fdcb64993e4f31e364b",
+      "mechanical_source_sha256": "7259db046221b9cc08d8a738ad8e09430b3813faca25a5b56ce14268ff822309"
+    }
+  ],
+  "image_index": "data/image_index.csv"
+}
