@@ -1,9 +1,0 @@
-*.py text eol=lf
-*.md text eol=lf
-*.json text eol=lf
-*.csv text eol=lf
-*.toml text eol=lf
-*.txt text eol=lf
-*.cff text eol=lf
-*.pt -text
-*.png -text
