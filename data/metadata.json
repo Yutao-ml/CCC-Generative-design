@@ -18,7 +18,7 @@
     "structure_response_records": 300,
     "structural_features": 21
   },
-  "selection": "The first 20 numerically ordered saved evaluation fields are included for each comparison model. The first 500 saved fields from the selected epoch-180 screening library are included for DME-GAN. All 302 retained response records are included.",
+  "selection": "The first 20 numerically ordered saved evaluation fields are included for each comparison model. The first 500 saved fields from the selected epoch-270 screening library are included for DME-GAN. All 302 retained response records are included.",
   "response_processing": "Only response columns consumed by the examples are exported from the retained solver tables; numerical values are preserved. The 300-row descriptor-response table is supplied with its original numeric values.",
   "checkpoint": {
     "selected_epoch": 270,
