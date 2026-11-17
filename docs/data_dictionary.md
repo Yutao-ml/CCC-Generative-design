@@ -44,7 +44,7 @@ For each record, the electrothermal ratio is the maximum of the four response ra
 
 ## Saved image subsets and source index
 
-The AR, VAE, diffusion and GAN folders each contain the first 20 saved evaluation images in numeric order. DME-GAN contains the first 500 entries from the retained screening library associated with the selected epoch-180 generator. The archive distinguishes these populations and does not substitute one for the article's morphology-comparison evaluation population. `data/image_index.csv` records each image's group, original identifier and SHA-256.
+The AR, VAE, diffusion and GAN folders each contain the first 20 saved evaluation images in numeric order. DME-GAN contains the first 500 entries from the retained screening library associated with the selected epoch-270 generator. The archive distinguishes these populations and does not substitute one for the article's morphology-comparison evaluation population. `data/image_index.csv` records each image's group, original identifier and SHA-256.
 
 ## Structure-response table
 
